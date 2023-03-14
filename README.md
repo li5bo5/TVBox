@@ -123,7 +123,6 @@ https://raw.fastgit.org/liu673cn/box/main/m.json
 韩国
 https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json
 https://ghproxy.net/https://raw.githubusercontent.com/liu673cn/box/main/m.json
-
 https://gcore.jsdelivr.net/gh/liu673cn/box@main/m.json
 https://raw.githubusercontents.com/liu673cn/box/main/m.json
 
