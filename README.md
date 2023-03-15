@@ -11,7 +11,7 @@ https://tv.ouhaibo3.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=5&jar=i
 
 https://tv.5ye.cc    //2哈社区
 
-https://raw.liucn.cc/box/m.json  //
+https://raw.liucn.cc/box/m.json
 https://raw.iqiq.io/liu673cn/box/main/m.json  //这两个是一样的，都是一个仓库：https://gitcode.net/qq_32394351/dr_py
 
 https://raw.fastgit.org/once678/looktv/main/tvbox8.json
