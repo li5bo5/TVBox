@@ -16,7 +16,7 @@ https://raw.liucn.cc/box/m.json  //  https://raw.iqiq.io/liu673cn/box/main/m.jso
 
 https://raw.fastgit.org/once678/looktv/main/tvbox8.json
 
-https://pastebin.com/raw/5NHaxyGR
+https://pastebin.com/raw/5NHaxyGR   //源自FongMi
 
 https://pan.css.lc/api/v3/file/get/89944/1_%E5%85%AC%E4%BC%97%E5%8F%B7%E6%98%9F%E6%B2%B3%E8%BD%AF%E4%BB%B6%E5%9B%AD%E7%BB%B4%E6%8A%A4%E6%9B%B4%E6%96%B0.txt?sign=TK-f6wSUHkZ2A3gpMRzd7NDAJI9dvqDaJE_U-lekrVg%3D%3A0
 
