@@ -10,8 +10,6 @@ https://tv.ouhaibo3.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=js&xl=5&jar=js
 
 https://tv.ouhaibo3.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=5&jar=index2
 
-https://tv.nxog1.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=zb&xl=1
-
 https://tv.5ye.cc
 
 https://raw.liucn.cc/box/m.json
