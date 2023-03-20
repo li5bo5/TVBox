@@ -8,10 +8,14 @@
 {"key":"csp_xbb_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json"},
 {"key":"csp_xp_虎牙","name":"虎牙直播","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/虎牙.json"},
 
-{"key":"drpy_js_哔哩直播","name":"直播 | 哔哩[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/哔哩直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-{"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/斗鱼直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/虎牙直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-{"key":"drpy_js_JustLive","name":"直播 | JustLive[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/JustLive.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
+
+{"key":"csp_xbb_斗鱼","name":"🐟斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json","jar":"https://raw.liucn.cc/box/sub/jar/2212.jar"},
+{"key":"csp_xp_huya","name":"🐯虎牙直播","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/虎牙.json","jar":"https://raw.liucn.cc/box/sub/jar/2212.jar"},
+
+//{"key":"drpy_js_哔哩直播","name":"直播 | 哔哩[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/哔哩直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
+//{"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/斗鱼直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
+//{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/虎牙直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
+//{"key":"drpy_js_JustLive","name":"直播 | JustLive[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/JustLive.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
 
 {"key":"csp_Bili合集","name":" 哔哩哔哩","type": 3,"api": "csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/ext/B站.txt"},
 {"key":"csp_Bili歌曲","name":"歌曲MV","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1, "ext":"https://raw.liucn.cc/box/sub/ext/歌曲.txt"},
