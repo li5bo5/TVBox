@@ -9,8 +9,7 @@
 |   4 |  https://tv.5ye.cc  |   http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt     |  2哈社区  |
 |   5 |  https://raw.liucn.cc/box/m.json  |   https://raw.liucn.cc/box/sub/jar/2212.jar     |    |
 |  6  |  
-|   7 |  
-// 20230329失效 https://raw.fastgit.org/once678/looktv/main/tvbox8.json |    https://shadowchiu369.github.io/TVBox/jar/sc.jar    |    |
+|   7 |  // 20230329失效 https://raw.fastgit.org/once678/looktv/main/tvbox8.json |    https://shadowchiu369.github.io/TVBox/jar/sc.jar    |    |
 |  8  |   https://pastebin.com/raw/5NHaxyGR |   https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar     |  源自FongMi  |
 |   9 |  https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8  |    https://notabug.org/qizhen15800/My9394/raw/master/jar/不良帅.txt    | 不良帅   |
 |  10  |  https://maoyingshi.cc/tvbox/云星日记/1.m3u8  |        | 云星日记 经常更新  |
