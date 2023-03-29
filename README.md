@@ -1,92 +1,40 @@
 # 个人收集网络公开接口进一步整合，去除不要的，增加想要的
 # 接口内容来源(排名不分先后，Excel自动排序)：
-https://神器每日推送.tk/pz.json    //无法获取源文件
 
-https://yydsys.top/duo       //大聪明（无法获取源文件）
+| 序号 | 地址 | spider | 备注 |
+|----|----|--------|----|
+|  1  | https://神器每日推送.tk/pz.json |  无  | 神器精选（无法获取源文件） |
+|   2 | https://yydsys.top/duo |   无    | 大聪明（无法获取源文件） |
+|  3  |  https://tvbox.cainisi.cf  |   无    |  菜妮丝（无法获取源文件）  |
+|   4 |  https://tv.5ye.cc  |   http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt     |  2哈社区  |
+|   5 |  https://raw.liucn.cc/box/m.json  |   https://raw.liucn.cc/box/sub/jar/2212.jar     |    |
+|  6  |  https://raw.iqiq.io/liu673cn/box/main/m.json   |    https://raw.liucn.cc/box/sub/jar/2212.jar    |    |
+|   7 |   https://raw.fastgit.org/once678/looktv/main/tvbox8.json |    https://shadowchiu369.github.io/TVBox/jar/sc.jar    |    |
+|  8  |   https://pastebin.com/raw/5NHaxyGR |   https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar     |  源自FongMi  |
+|   9 |  https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8  |    https://notabug.org/qizhen15800/My9394/raw/master/jar/不良帅.txt    | 不良帅   |
+|  10  |  https://maoyingshi.cc/tvbox/云星日记/1.m3u8  |        | 云星日记 经常更新  |
+|  11  |  https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json  |        |  gaotianliuyun  |
+|  12  |  https://freed.yuanhsing.cf/TVBox/meowcf.json  |        |    |
+|  13  |  https://dxawi.github.io/0/0.json  |        |  dxawi  |
+|  14  |  https://download.kstore.space/download/2883/m3u8/dsj/guochan/mp1/1.m3u8  |        |    |
+|  15  |  https://download.kstore.space/download/2863/01.txt  |        |    |
+|  16  | http://pandown.pro/tvbox/tvbox.json   |    |巧技|
+|  17  |  http://我不是.肥猫.love:63/接口禁止贩卖  |    |  肥猫  |
+|  18  |  http://饭太硬.ga/tv  |    |  饭太硬  |
+|19|http://www.dmtv.ml/mao/single.json|http://www.dmtv.ml/mao/jar/dmtv.jar||
+|20|http://byyds.top/w.txt|https://download.kstore.space/download/3376/1128.jar||
+|21|http://9xi4o.tk/0725.json|http://9xi4o.tk/0925.jar||
+|22|http://52bsj.vip:98/cl|https://jihulab.com/ygbh1/box/-/raw/main/JAR/spider.jar||
+|23|http://101.34.67.237/config/3|http://101.34.67.237/files/custom_spider_tang.jar||
+|24|https://e40.cn/ygbh|||
+|25|https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json||一木|
+|26|https://raw.iqiq.io/xianyuyimu/TVBOX-/main/TVBox/%E5%A4%87%E7%94%A8.json||一木|
+|27|http://101.34.67.237/config/2|小雅|
 
-https://tvbox.cainisi.cf     //菜妮丝（无法获取源文件）
+--------------------------------------------
 
-https://tv.ouhaibo3.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=js&xl=5&jar=js
-
-https://tv.ouhaibo3.repl.co/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=5&jar=index2 //两个欧歌
-
-https://tv.5ye.cc    //2哈社区
-
-https://raw.liucn.cc/box/m.json
-https://raw.iqiq.io/liu673cn/box/main/m.json  //这两个是一样的，都是一个仓库：https://gitcode.net/qq_32394351/dr_py
-
-https://raw.fastgit.org/once678/looktv/main/tvbox8.json
-
-https://pastebin.com/raw/5NHaxyGR   //源自FongMi
-
-https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8
-
-https://maoyingshi.cc/tvbox/云星日记/1.m3u8
-
-https://hutool.ml/tang
-
-https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
-
-https://freed.yuanhsing.cf/TVBox/meowcf.json
-
-https://dxawi.github.io/0/0.json
-
-https://download.kstore.space/download/2883/m3u8/dsj/guochan/mp1/1.m3u8
-
-https://download.kstore.space/download/2863/01.txt
-
-https://cdn.jsdelivr.net/gh/liu673cn/box@main/m.json
-
-https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
-
-https://agit.ai/relax/adcc/raw/branch/master/tvbox.json
-
-https://agit.ai/nbwzlyd/xiaopingguo/raw/branch/master/xiaopingguo/xiaopingguo.json
-https://agit.ai/n/b/raw/branch/a/b/c.json
-https://agit.ai/mmmgit/tvbox/raw/branch/main/zzz1.json
-https://agit.ai/kvymin/TV/raw/branch/master/Box.json
-
-https://agit.ai/66666/mao/raw/branch/master/00/000.m3u8
-
-http://我不是.肥猫.love:63/接口禁止贩卖
-
-http://我不是.肥猫.love:63
-
-http://饭太硬.ga/x/o.json
-
-http://饭太硬.ga/tv
-
-http://www.dmtv.ml/mao/single.json
-
-http://shagua888168.3vdo.club
-
-http://pandown.pro/tvbox/tvbox.json
-
-http://miaotvs.cn/osc
-
-http://lengniuge.eu.org/box.php?url=http://1.nxog.top/nxog/ou1.php?url=http://1.nxog.top&xl=1&b=%E6%AC%A7%E6%AD%8C
-
-http://js.134584.xyz/json/pp87.json
-
-http://home.jundie.top:81/top98.json
-
-http://dxawi.github.io/0/0.json
-
-http://drpy.site/js1
-
-http://byyds.top/w.txt
-
-http://9xi4o.tk/0725.json
-
-http://52bsj.vip:98/cl
-
-http://101.34.67.237/config/3
-
-https://e40.cn/ygbh
 # 以上接口均非原创，侵联删
-# hide.json内容禁止使用
-# nomal.json仅供本人使用
-# nomal.json中对大多数人来说都不适合，只是我自己用来使用的，所以建议大家直接使用网络公开接口
+
 ##开源仓库
 https://github.com/
 https://gitlab.com/
