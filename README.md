@@ -8,7 +8,7 @@
 |  3  |  https://tvbox.cainisi.cf  |   无    |  菜妮丝（无法获取源文件）  |
 |   4 |  https://tv.5ye.cc  |   http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt     |  2哈社区  |
 |   5 |  https://raw.liucn.cc/box/m.json  |   https://raw.liucn.cc/box/sub/jar/2212.jar     |    |
-|  6  |  https://raw.iqiq.io/liu673cn/box/main/m.json   |    https://raw.liucn.cc/box/sub/jar/2212.jar    |    |
+|  6  |  
 |   7 |   https://raw.fastgit.org/once678/looktv/main/tvbox8.json |    https://shadowchiu369.github.io/TVBox/jar/sc.jar    |    |
 |  8  |   https://pastebin.com/raw/5NHaxyGR |   https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar     |  源自FongMi  |
 |   9 |  https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8  |    https://notabug.org/qizhen15800/My9394/raw/master/jar/不良帅.txt    | 不良帅   |
