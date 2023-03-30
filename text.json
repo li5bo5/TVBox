@@ -5,7 +5,9 @@
 //2023/3/14--{"key":"T4_douban1","name":"影视推荐","type":4,"api":"http://t4.ganggang.live:3812/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"T4_douban2","name":"影视推荐","type":4,"api":"https://t4.饭太硬.ml/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Sp_wh","name":"直播聚合","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
-//{"key":"csp_xbb_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json"},
+{"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://134.122.170.64/公众号玉玉软件/alitoken/ali/token.txt","jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
+  //{"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
+  //{"key":"csp_xbb_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json"},
 //{"key":"csp_xp_虎牙","name":"虎牙直播","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/虎牙.json"},
 
 //{"key":"drpy_js_哔哩直播","name":"直播 | 哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/哔哩直播.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
