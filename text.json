@@ -7,7 +7,7 @@
 {"key":"Sp_wh","name":"直播聚合","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
 //{"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://134.122.170.64/公众号玉玉软件/alitoken/ali/token.txt","jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
 {"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
-{"key":"18avv","name":"18AV影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/18mm.json","jar":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/jar/xo.txt"},
+{"key":"18avv","name":"18AV影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/json/18mm.json","jar":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/jar/xo.txt"},
 //{"key":"csp_xbb_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json"},
 //{"key":"csp_xp_虎牙","name":"虎牙直播","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/虎牙.json"},
 
