@@ -5,25 +5,12 @@
 //2023/3/14--{"key":"T4_douban1","name":"影视推荐","type":4,"api":"http://t4.ganggang.live:3812/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"T4_douban2","name":"影视推荐","type":4,"api":"https://t4.饭太硬.ml/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Sp_wh","name":"直播聚合","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
-//{"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://134.122.170.64/公众号玉玉软件/alitoken/ali/token.txt","jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
-{"key":"UpYun","name":"Up搜┃普画","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":0,"jar":"http://134.122.170.64/公众号玉玉软件/jar/spider.jar"},
+
+//添加成功↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 {"key":"18avv","name":"18AV影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/json/18mm.json","jar":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/jar/xo.txt"},
-//{"key":"csp_xbb_斗鱼","name":"斗鱼直播","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/斗鱼.json"},
-//{"key":"csp_xp_虎牙","name":"虎牙直播","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/虎牙.json"},
-
-//{"key":"drpy_js_哔哩直播","name":"直播 | 哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/哔哩直播.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
-//{"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/斗鱼直播.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
-//{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/虎牙直播.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
-//{"key":"drpy_js_JustLive","name":"直播 | JustLive[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/JustLive.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
-//{"key":"drpy_js_JRKAN直播","name":"体育 | JRKAN直播[js]","type":3,"api":"./lib/drpy.min.js","ext":"./js/JRKAN直播.js","jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar"},
-
+//添加成功↑↓↓↓↓↓↓↓↓↓↓↓↓↓
 {"key":"csp_XYQHiker_虎牙","name":"🐯虎牙","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/虎牙.json","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
 {"key":"csp_XYQBiu_斗鱼","name":"🐬斗鱼","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/斗鱼.json","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
-
-//{"key":"drpy_js_哔哩直播","name":"直播 | 哔哩[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/哔哩直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-//{"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/斗鱼直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-//{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/虎牙直播.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"}, 
-//{"key":"drpy_js_JustLive","name":"直播 | JustLive[js]","type":3,"api":"./js/lib/drpy2.min.js","ext":"./js/js/JustLive.js","jar":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
 
 {"key":"csp_Bili合集","name":" 哔哩哔哩","type": 3,"api": "csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/ext/B站.txt"},
 {"key":"csp_Bili歌曲","name":"歌曲MV","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1, "ext":"https://raw.liucn.cc/box/sub/ext/歌曲.txt"},
