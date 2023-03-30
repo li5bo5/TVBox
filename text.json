@@ -7,9 +7,9 @@
 {"key":"Sp_wh","name":"直播聚合","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
 
 //添加成功↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-{"key":"18avv","name":"18AV影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/json/18mm.json","jar":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/jar/xo.txt"},
+{"key":"18avv","name":"18AV影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ghproxy.net/https://github.com/li5bo5/gao/blob/master/json/18mm.json"},
 {"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://饭太硬.ga/x/json/少儿教育.json"},
-  //添加成功↑↓↓↓↓↓↓↓↓↓↓↓↓↓
+//添加成功↑↓↓↓↓↓↓↓↓↓↓↓↓↓
 {"key":"csp_XYQHiker_虎牙","name":"🐯虎牙","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/虎牙.json","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
 {"key":"csp_XYQBiu_斗鱼","name":"🐬斗鱼","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/斗鱼.json","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
 
