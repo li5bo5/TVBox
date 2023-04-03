@@ -171,8 +171,7 @@
 {"key":"csp_xp_789kp","name":"💢789看片","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/789kp.json"},
 {"key":"csp_SP360","name":"360影视","api":"csp_SP360","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
 {"key":"csp_xp_348z","name":"💢348电影","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/348z.json"},
-{"key":"csp_xbb_348电影网","name":"348电影网","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/348电影网.json"},
-{"key":"幼儿乐园","name":"幼儿乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/幼儿乐园.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51"}
+{"key":"csp_xbb_348电影网","name":"348电影网","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXB/348电影网.json"}
 ],
 //=新添加2Ha=======2哈文件结构无法访问，修改失败===========================================================================================================================
 //{"key":"csp_Voflix","name":"Voflix","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1,"jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
@@ -182,7 +181,7 @@
 //{"key":"csp_Biliych","name":"看演唱会","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/Biliych.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
 //{"key":"csp_Alist2","name":"小雅","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/alist.min.js","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://ftp6284928.host108.abeiyun.cn/json/xiaoya.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
 //{"key":"drpy_js_兔小贝","name":"兔小贝[DRPY]","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js","ext":"http://ftp6284928.host108.abeiyun.cn/drpy/js/兔小贝.js","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
-
+//还是不行{"key":"幼儿乐园","name":"幼儿乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/幼儿乐园.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51"}
 //{"key":"少儿教育","name":"少儿教育","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/少儿教育.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
 //{"key":"小学课堂","name":"小学课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/小学课堂.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
 //{"key":"初中课堂","name":"初中课堂","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://ftp6284928.host108.abeiyun.cn/json/初中课堂.json","jar":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.jar"},
