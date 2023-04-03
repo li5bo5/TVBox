@@ -185,9 +185,7 @@
 {"key": "秀色资源","name": "秀色资源","type": 0,"api": "https://api.xiuseapi.com/api.php/provide/vod/from/xiuse/at/xml/","playUrl": "https://api.xiusebf.com/m3u8/?url=","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
 {"key": "小姐姐资源","name": "小姐姐资源","type": 0,"api": "https://xjjzyapi.com/home/cjapi/askl/mc/vod/xml","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
 {"key": "zp011","name": "乐播资源","type": 0,"api": "https://lbapi9.com/api.php/provide/vod/at/xml/","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
-{"key": "zp059","name": "番号资源","type": 0,"api": "http://fhapi9.com/api.php/provide/vod/at/xml","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"}
-
-
+{"key": "zp059","name": "番号资源","type": 0,"api": "http://fhapi9.com/api.php/provide/vod/at/xml","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
 
 {"key":"APP影视〔官源〕","name":"↓APP影视〔官源〕↓","type":0,"api":"","searchable":0,"quickSearch":0,"filterable":0},
 {"key": "csp_IQIYI","name": "爱奇艺〔SP〕","type": 3,"api": "csp_IQIYI","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"http://maoyingshi.cc/tvbox/云星日记/jar/0730.jar"}
