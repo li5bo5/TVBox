@@ -175,9 +175,7 @@
 {"key":"小猫咪〔官源〕","name":"小猫咪〔官源〕","type":1,"api":"http://zy.xiaomaomi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"categories":["国产剧","港台剧","日韩剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","综艺","动漫","综合频道"],"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
 {"key":"忆梦","name":"忆梦〔官源〕","type":1,"api":"http://anltv.cn/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","港台剧","日韩剧","欧美剧","电影(B站)","电视剧(B站)","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","犯罪片","悬疑片","惊悚片","奇幻片","冒险片","武侠片","动漫画","动画","番剧(B站)","国创(B站)","综艺","记录片(B站)","纪录片/微电影"],"jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
 {"key":"csp_appysv2_萌蛋蛋〔APP〕","name":"萌蛋蛋〔APP〕","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v1/","jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
-{"key":"csp_appysv2_淘剧社〔APP〕","name":"淘剧社〔APP〕","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.shuhai99.com/api.php/v1.vod","jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"},
-//===============
-{"key":"分类分隔","name":"↓分类分隔↓","type":0,"api":"","searchable":0,"quickSearch":0,"filterable":0}
+{"key":"csp_appysv2_淘剧社〔APP〕","name":"淘剧社〔APP〕","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.shuhai99.com/api.php/v1.vod","jar":"http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar?sign=tHlnRJ9C4j0hj_7DGbHa-Jmv9Jz6czIxGSMpkDCejjY%3D%3A0"}
 ],
 //【分隔】{"key":"APP影视〔官源〕","name":"↓APP影视〔官源〕↓","type":0,"api":"","searchable":0,"quickSearch":0,"filterable":0},
 //==================================================================视频解析==================================================================
