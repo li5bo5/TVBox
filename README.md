@@ -33,9 +33,6 @@
 |24|https://raw.iqiq.io/xianyuyimu/TVBOX-/main/TVBox/%E5%A4%87%E7%94%A8.json||一木|
 
 --------------------------------------------
-
-# 以上接口均非原创，侵联删
-
 ##开源仓库
 https://github.com/
 https://gitlab.com/
