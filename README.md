@@ -46,15 +46,5 @@ https://agit.ai/
 https://notabug.org/
 上面几个仓库我上传了文件，接口地址导入TVbox之后，不知道为什么总是配置失败，有知道的可以教我一下
 
-EGP源
-http://epg.51zmt.top:8000/e.xml
-https://epg.112114.xyz/pp.xml
-
-给英文不好的朋友
-
-Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
-
-Github 静态加速
-
-
-https://purge.jsdelivr.net/gh/
+借口转换
+https://ghproxy.com/
