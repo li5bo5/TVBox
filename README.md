@@ -46,5 +46,5 @@ https://agit.ai/
 https://notabug.org/
 上面几个仓库我上传了文件，接口地址导入TVbox之后，不知道为什么总是配置失败，有知道的可以教我一下
 
-借口转换
+接口转换
 https://ghproxy.com/
