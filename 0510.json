@@ -68,11 +68,11 @@
 
 {"key":"AList",			"name":"Alist",		"type":3,	"api":"csp_AList",												"ext":"./ext/Alist.json",		"jar":"./Jar/FMi.jar"},
 {"key":"紙條_Xma",		"name":"小马盘搜",	"type":3,	"api":"csp_Paper","searchable":1,"filterable":1,"changeable":1,	"ext":"./Token/aliyun.php",	"jar":"http://我不是.肥猫.love:63/Jar/panda230305.jar"},
-{"key":"纸条","name":"阿里 | 纸条","type":3,"api":"csp_Paper","ext":"./lib/token.txt"},
-{"key":"易搜","name":"阿里 | 易搜","type":3,"api":"csp_YiSo","ext":"./lib/token.txt"},
-{"key":"盘搜","name":"阿里 | 盘搜","type":3,"api":"csp_PanSou","ext":"./lib/token.txt"},
-{"key":"UP云搜","name":"阿里 | UP云搜","type":3,"api":"csp_UpYun","ext":"./lib/token.txt"},
-{"key":"找資源","name":"阿里 | 找資源","type":3,"api":"csp_Zhaozy","ext":"./lib/token.txt"},
+{"key":"纸条","name":"阿里 | 纸条","type":3,"api":"csp_Paper","ext":"./Token/aliyun.php","jar":"./Jar/gao.jar"},
+{"key":"易搜","name":"阿里 | 易搜","type":3,"api":"csp_YiSo","ext":"./Token/aliyun.php","jar":"./Jar/gao.jar"},
+{"key":"盘搜","name":"阿里 | 盘搜","type":3,"api":"csp_PanSou","ext":"./Token/aliyun.php","jar":"./Jar/gao.jar"},
+{"key":"UP云搜","name":"阿里 | UP云搜","type":3,"api":"csp_UpYun","ext":"./Token/aliyun.php","jar":"./Jar/gao.jar"},
+{"key":"找資源","name":"阿里 | 找資源","type":3,"api":"csp_Zhaozy","ext":"./Token/aliyun.php","jar":"./Jar/gao.jar"},
 //==================================================================早教==================================================================
 
 {"key":"XYQH_儿歌",			"name":"儿歌",		"type":3,	"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,	"ext":"./ext/兔小贝儿歌.js",	"jar":"./Jar/bls.jar"},
