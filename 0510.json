@@ -259,6 +259,8 @@
 {"name":"Json并发",	"type":2,"url":"Parallel"},
 {"name":"Json轮询",	"type":2,"url":"Sequence"},
 
+{"name": "未知","type": 0,"url": "https://jx.zhanlangbu.com/?url= ","ext": {"flag":["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
+
 {"name":"777",		"type":0,	"url":"https://jx.777jiexi.com/player/?url= "},
 {"name":"bozrc",	"type":0,	"url":"https://jx.bozrc.com:4433/player/?url= "},
 {"name":"ckllk",	"type":1,	"url":"https://vip.ckllk.com/API.php?appkey=404164cdd1472561b4c61f1845e0bff8&url= "},
