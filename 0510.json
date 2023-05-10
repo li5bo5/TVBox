@@ -34,7 +34,7 @@
 "sites":[
 //====================================================================大网站====================================================================
 
-{"key":"代码版本",			"name":"051003",	"type":0,	"api":"","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"代码版本",			"name":"051004",	"type":0,	"api":"","searchable":0,"quickSearch":0,"filterable":0},
 
 {"key":"drpy_豆瓣",			"name":"豆瓣榜单",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js","searchable":0,"quickSearch":0,"filterable":1},
 {"key":"drpy_js_奇珍异兽",	"name":"爱奇艺",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/爱奇艺.js"},	
@@ -55,6 +55,8 @@
 //==================================================================直播平台==================================================================
 
 {"key":"csp_Yj1211",				"name":"直播聚合",	"type":3,	"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"drpy_js_Yj1211",			"name":"drYJ1211",	"type":3,	"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,	"ext":"./ext/JustLive.js"},
+
 {"key":"drpy_js_斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js",			"jar":"./Jar/FMi.jar"},
 {"key":"drpy_js_虎牙直播",			"name":"虎牙直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/虎牙直播.js",			"jar":"./Jar/FMi.jar"},
 {"key":"drpy_js_哔哩直播",			"name":"哔哩直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩直播.js",			"jar":"./Jar/FMi.jar"},
