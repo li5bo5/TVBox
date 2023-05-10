@@ -9,7 +9,7 @@
 
 "sites":[
 {"key":"csp_Yj1211",				"name":"直播聚合",	"type":3,	"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Yj1211",					"name":"drYJ1211",	"type":3,	"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,	"ext":"./ext/JustLive.js"},
+{"key":"csp_Yj1211",					"name":"drYJ1211",	"type":3,	"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,	"ext":"./ext/JustLive.js"},
 
 {"key":"APP影视〔官源〕","name":"收尾",	"type":0,"api":"","searchable":0,"quickSearch":0,"filterable":0}
 ],
