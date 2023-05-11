@@ -12,7 +12,7 @@
 |  3  |  https://tvbox.cainisi.cf  |   无    |  菜妮丝（无法获取源文件）  |
 |  4  |http://我不是.肥猫.love:63/接口禁止贩卖  |    |  肥猫（无法获取源文件）  |
 | 5  |  http://饭太硬.ga/tv  |    |  饭太硬（无法获取源文件）  |
-|   6 |  https://tv.5ye.cc  |   http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt     |  2哈社区  |
+|   6 |  https://tv.5ye.cc  |   http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt     |  2哈社区跑路  |
 |   7 |  https://raw.liucn.cc/box/m.json  |   https://raw.liucn.cc/box/sub/jar/2212.jar     |    |
 |  8 | http://52bsj.vip:98/0805 |http://52bsj.vip:81/api/v3/file/get/28175/PlutoPlayer0805.jar |吾爱|
 |   9 |  // 20230329失效 https://raw.fastgit.org/once678/looktv/main/tvbox8.json |    https://shadowchiu369.github.io/TVBox/jar/sc.jar    |    |
