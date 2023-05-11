@@ -35,7 +35,7 @@
 "sites":[
 //====================================================================大网站====================================================================
 
-{"key":"代码版本",			"name":"051101",	"type":0,	"api":"","searchable":0,"quickSearch":0,"filterable":0},
+{"key":"代码版本",			"name":"051004",	"type":0,	"api":"","searchable":0,"quickSearch":0,"filterable":0},
 
 {"key":"drpy_豆瓣",			"name":"豆瓣榜单",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js","searchable":0,"quickSearch":0,"filterable":1},
 {"key":"drpy_js_奇珍异兽",	"name":"爱奇艺",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/爱奇艺.js"},	
@@ -57,14 +57,14 @@
 
 {"key":"csp_Yj1211",				"name":"直播聚合",	"type":3,	"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
 //{"key":"Yj1211",					"name":"drYJ1211",	"type":3,	"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,	"ext":"./ext/JustLive.js",			"jar":"./Jar/FMi.jar"},
-{"key":"csp_XYQBiu_斗鱼",			"name":"斗鱼直播",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./json/斗鱼直播.json","jar":"./Jar/XYQ.jar"},
+{"key":"csp_XYQBiu_斗鱼",			"name":"斗鱼直播",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/斗鱼直播.json"},
 {"key":"drpy_js_斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js"},
 {"key":"drpy_js_虎牙直播",			"name":"虎牙直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/虎牙直播.js"},
 {"key":"drpy_js_哔哩直播",			"name":"哔哩直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩直播.js"},
 {"key":"XPath_起鹅",				"name":"企鹅体育",	"type":3,	"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/企鹅体育.json",		"jar":"./Jar/bls.jar"},
-{"key":"csp_XYQHiker_无插件直播",	"name":"体育直播",	"type":3,	"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/无插件直播.json",		"jar":"./Jar/XYQ.jar"},
-{"key":"csp_XYQBiu_抓饭直播",		"name":"抓饭直播",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/抓饭直播.json",		"jar":"./Jar/XYQ.jar"},
-{"key":"csp_XYQBiu_88看球",			"name":"88看球",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/88看球.json",			"jar":"./Jar/XYQ.jar"},
+{"key":"csp_XYQHiker_无插件直播",	"name":"体育直播",	"type":3,	"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/无插件直播.json",		"jar":"./Jar/XYQ58.jar"},
+{"key":"csp_XYQBiu_抓饭直播",		"name":"抓饭直播",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/抓饭直播.json",		"jar":"./Jar/XYQ58.jar"},
+{"key":"csp_XYQBiu_88看球",			"name":"88看球",	"type":3,	"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,	"ext":"./ext/88看球.json",			"jar":"./Jar/XYQ58.jar"},
 {"key":"drpy_js_310直播",			"name":"310直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/310直播.js",			"jar":"./Jar/FMi.jar"},
 
 //==================================================================网盘搜索==================================================================
@@ -226,7 +226,7 @@
 {"key":"drpy_js_星辰影院",	"name":"星辰影院",	"type":3,	"api":"./lib/drpy2.min.js","ext":"./ext/星辰影院.js","jar":"./Jar/FMi.jar"},
 
 //Y鱼乐含9+
-{"key":"csp_XYQHiker_野荷塘影院","name":"野荷塘","type":3,	"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./ext/野荷塘影院.json","jar":"./Jar/XYQ.jar"},
+{"key":"csp_XYQHiker_野荷塘影院","name":"野荷塘","type":3,	"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./ext/野荷塘影院.json","jar":"./Jar/XYQ58.jar"},
 {"key":"csp_xp_yinfans",	"name":"音范丝",	"type":3,	"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,	"ext":"./ext/音范丝.json"},
 {"key":"drpy_js_影渣渣",	"name":"影渣渣",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/影渣渣.js",	"jar":"./Jar/FMi.jar"},
 {"key":"drpy_js_鸭奈飞",	"name":"鸭奈飞",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/鸭奈飞.js",	"jar":"./Jar/FMi.jar"},
