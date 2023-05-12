@@ -45,7 +45,7 @@
 {"key":"drpy_js_哔哩影视",	"name":"哔哩影视",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩影视.js"},
 {"key":"csp_SP360",			"name":"360影视",	"type":3,	"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1},
 {"key":"drpy_js_菜狗",		"name":"搜狗视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/搜狗视频.js"},
-{"key":"drpy_忙易",			"name":"网易视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易视频.js",},
+{"key":"drpy_忙易",			"name":"网易视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易视频.js"},
 //{"key":"zy_乱舞3",			"name":"搜狐影视",	"type":1,	"api":"https://cms.json.vin/api.php/provide/vod/from/sohu/?ac=list","searchable":1,"quickSearch":1,"categories":["电影","连续剧","综艺","动漫","纪录片"]},
 //{"key":"AP_新浪",			"name":"新浪娱乐",	"type":1,	"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["大陆剧","港澳剧","台湾剧","动漫","动作片","爱情片","科幻片","战争片","剧情片","恐怖片","喜剧片","欧美剧","动漫电影","韩剧","日剧","泰剧"]},
 {"key":"XBPQ_TVB",			"name":"TVB",		"type":3,	"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/TVB.js"},
