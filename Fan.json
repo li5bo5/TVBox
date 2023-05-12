@@ -12,7 +12,7 @@
 {"key":"drpy_js_哔哩影视",	"name":"哔哩影视",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩影视.js"},
 {"key":"drpy_js_菜狗",		"name":"搜狗视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/搜狗视频.js"},
 {"key":"drpy_忙易",			"name":"网易视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易视频.js"},
-{"key":"XBPQ_TVB",			"name":"TVB",		"type":3,	"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/TVB.js",	},
+{"key":"XBPQ_TVB",			"name":"TVB",		"type":3,	"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/TVB.js"},
 {"key":"csp_Bili合集",		"name":"哔哩哔哩",	"type":3,	"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/哔哩哔哩.json"},
 {"key":"csp_Bili相声",		"name":"相声小品",	"type":3,	"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/相声.json"},
 {"key":"csp_Bili戏曲",		"name":"国粹戏曲",	"type":3,	"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,			"ext":"./ext/戏曲.json"},
