@@ -70,7 +70,7 @@
 {"key":"drpy_js_量子影视",	"name":"量子影视",	"type":3,	"api":"./lib/drpy2.min.js","ext":"./ext/量子影视.js"},
 {"key":"drpy_js_蓝光影院",	"name":"蓝光影院",	"type":3,	"api":"./lib/drpy2.min.js","ext":"./ext/蓝光影院.js"},
 {"key":"drpy_js_利丽娅电影","name":"利丽娅电影","type":3,	"api":"./lib/drpy2.min.js","ext":"./ext/利丽娅电影.js"},
-{"key":"XYQH_白嫖联盟",		"name":"黑狐影视",	"type":3,	"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,		"ext":"./ext/黑狐影视.js",	},
+{"key":"XYQH_白嫖联盟",		"name":"黑狐影视",	"type":3,	"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,		"ext":"./ext/黑狐影视.js"},
 {"key":"zy_乱舞8",			"name":"图图影视",	"type":1,	"api":"https://ys.md214.cn/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories":["大陆剧","电影","连续剧","综艺","动漫","直播"]},
 {"key":"csp_xp_meiju56",	"name":"美剧网",	"type":3,	"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,						"ext":"./ext/美剧网.json"},
 {"key":"drpy_js_麦豆网",	"name":"麦豆网",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/麦豆.js"},
