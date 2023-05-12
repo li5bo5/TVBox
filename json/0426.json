@@ -73,7 +73,9 @@
 {"key":"drpy_js_AGE动漫",	"name":"AGE动漫",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js","ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/AGE动漫.js",	"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
 
 //==================================================================视频网站==================================================================
+
 //A
+{"key":"csp_app_爱酷影视",	"name":"爱酷影视",	"type":3,	"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,								"ext":"https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"},
 {"key":"drpy_js_爱迪影视",	"name":"爱迪影视",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",		"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/爱迪影视.js",	"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
 {"key":"drpy_爱看",			"name":"爱看影视",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox_bls/raw/branch/master/js/lib/drpy2.min.js",		"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/爱看影视.js",	"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/bls.txt"},
 {"key":"cps_Auete",			"name":"奥特影视",	"type":3,	"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/bls.txt"},
