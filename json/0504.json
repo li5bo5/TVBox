@@ -22,7 +22,7 @@
 {
 "spider":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/liu2212.jar",
 
-"wallpaper":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/wallpaper/wallpaper(1).jpg",
+"wallpaper":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/wallpaper/wallpaper(2).jpg",
 
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
 
@@ -130,15 +130,18 @@
 //J
 {"key":"csp_xp_99ys",		"name":"久久影视",	"type":3,	"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/久久影视.json"},
 {"key":"drpy_js_荐片",		"name":"荐片",		"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js","ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/荐片.js","jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
-
+//========================
 //K
 {"key":"csp_xbb_克拉TV",	"name":"克拉TV",	"type":3,	"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,		"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/克拉TV.json"},
 {"key":"csp_kuaikan",		"name":"快看影视",	"type":3,	"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"drpy_js_酷云七七",	"name":"酷云七七",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/酷云77.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
-{"key":"drpy_js_看看电影",	"name":"看看电影",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/看看电影.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
-{"key":"drpy_js_看了么",	"name":"看了么",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/ext/看了么.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
+//{"key":"csp_kuaikan",		"name":"影视┃快看",	"type":3,	"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,		"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/bls.txt"},
+{"key":"csp_Kunyu77",		"name":"酷云七七",	"type":3,	"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"drpy_js_酷云七七",	"name":"酷云七七",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://bitbucket.org/li5bo5/dr_py/raw/master/js/酷云77.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
+{"key":"drpy_js_看看电影",	"name":"看看电影",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://bitbucket.org/li5bo5/dr_py/raw/master/js/看看电影.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
+{"key":"drpy_js_看了么",	"name":"看了么",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://bitbucket.org/li5bo5/dr_py/raw/master/js/看了么.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
+{"key":"csp_xbb_去看吧",	"name":"看吧动漫",	"type":3,	"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,		"ext":"https://bitbucket.org/li5bo5/liubox/raw/main/sub/MeowXB/去看吧.json"},
+{"key":"csp_xbb_口袋影院",	"name":"口袋影院",	"type":3,	"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,		"ext":"https://bitbucket.org/li5bo5/liubox/raw/main/sub/MeowXB/口袋影院.json"},
 {"key":"csp_app_看剧吧",	"name":"看剧吧",	"type":3,	"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,		"ext":"http://app.ishen520.com/api.php/v1.vod"},
-//========================
 {"key":"csp_xml_快播云",	"name":"快播云",	"type":1,	"api":"http://www.kuaibozy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"drpy_js_酷奇MV",	"name":"酷奇MV",	"type":3,	"api":"https://code.gitlink.org.cn/li5bo5/tvbox-dr/raw/branch/master/libs/drpy2.min.js",	"ext":"https://bitbucket.org/li5bo5/dr_py/raw/master/js/酷奇MV.js",			"jar":"https://code.gitlink.org.cn/li5bo5/TVBox/raw/branch/master/jar/FMi.jar"},
 {"key":"csp_xp_酷奇mv",		"name":"酷奇MV",	"type":3,	"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,		"ext":"https://bitbucket.org/li5bo5/liubox/raw/main/sub/MeowXP/酷奇MV.json"},
