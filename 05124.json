@@ -120,7 +120,7 @@
 {"key":"drpy_js_大师兄影视","name":"大师兄影视","type":3,	"api":"./lib/drpy2.min.js",		"ext":"./ext/大师兄影视.js"},
 {"key":"drpy_js_多瑙影视",	"name":"多瑙影视",	"type":3,	"api":"./lib/drpy2.min.js",		"ext":"./ext/多瑙影视.js"},
 {"key":"XBPQ_低端",			"name":"低端影视1",	"type":3,	"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,				"ext":"./ext/低端影视.js"},
-{"key":"csp_DiDuan",		"name":"低端影视2",	"type":3,	"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0,},
+{"key":"csp_DiDuan",		"name":"低端影视2",	"type":3,	"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"XPMacFilter独播库",	"name":"独播库",	"type":3,	"api":"csp_XPathMacFilter","searchable":1,"filterable":1,"changeable":1,	"ext":"./ext/独播库.js"},
 
 //E
