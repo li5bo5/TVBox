@@ -7,7 +7,8 @@ var rule = {
 	title:'天龙影视',
 	模板:'mxpro',
 	host:'http://www.85mao.com',
-	url:'/List/fyclass--------fypage---.html',
+	url:'/List1/fyclass.html',
+	//url:'/List/fyclass--------fypage---.html',
 	
 	searchUrl:'/Search/**-------------.html',
 	searchable: 1,//是否启用全局搜索,
