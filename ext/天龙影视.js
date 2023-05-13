@@ -5,8 +5,8 @@ var rule={
     url:'/List/fyfilter.html',
     searchUrl:'/Search/-------------.html?wd=**',
     searchable:2,//是否启用全局搜索,
-    quickSearch:1,//是否启用快速搜索,
-    filterable:1,//是否启用分类筛选,
+    quickSearch:0,//是否启用快速搜索,
+    filterable:0,//是否启用分类筛选,
     
     filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
 	
@@ -41,8 +41,8 @@ var rule={
         17:{cateId:'17'},
         18:{cateId:'18'},
         20:{cateId:'20'},
-	48:{cateId:'48'},
-	16:{cateId:'16'}
+		48:{cateId:'48'},
+		16:{cateId:'16'}
     },
     
     
