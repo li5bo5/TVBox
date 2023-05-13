@@ -58,5 +58,5 @@ var rule={
     double:true, // 推荐内容是否双层定位
     一级:'#movielist&&li;h3&&Text;img&&src;.info&&Text;a&&href',
     二级:{"title":".bread&&Text;.cont&&p:eq(2)&&Text","img":"img&&src","desc":";;;.cont&&p:eq(1)&&Text;.cont&&p:eq(0)&&Text","content":".detail-intro&&p&&Text","tabs":"#pagerlist li","lists":"#zongyilist:eq(#id) li"},
-    搜索:'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-info-item-content&&Text;a&&href;',
+    搜索:'.channel-list&&li;h3&&Text;img&&src;.cont&&p:eq(0)&&Text;a&&href;',
 }
