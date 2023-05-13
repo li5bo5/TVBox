@@ -8,8 +8,8 @@ var rule={
     searchable:2,//是否启用全局搜索,
     quickSearch:0,//是否启用快速搜索,
     filterable:0,//是否启用分类筛选,
-    filter_url:'{fl.cateId}}-{{fl.area}}----{{fl.letter}}---fypage---{{fl.year}',
-   // filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
+   //  filter_url:'{fl.cateId}}-{{fl.area}}----{{fl.letter}}---fypage---{{fl.year}',
+   filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
 	
     filter: {
 		"17":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":""},{"n":"动作片","v":"1"},{"n":"喜剧片","v":"2"},{"n":"爱情片","v":"3"},{"n":"科幻片","v":"4"},{"n":"恐怖片","v":"5"},{"n":"剧情片","v":"6"},{"n":"战争片","v":"13"},{"n":"纪录片","v":"14"},{"n":"微电影","v":"19"}]},
