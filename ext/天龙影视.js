@@ -10,7 +10,7 @@ var rule = {
 	
 	//分类
 	class_name:'电影&电视剧&综艺&动漫&经典',
-	//class_url:'List1/17&ist1/18&List1/20&List1/48&List1/16',
+	//class_url:'List1/17&List1/18&List1/20&List1/48&List1/16',
 	class_url:'17&18&20&48&16',
 	//分类筛选,0/1
 	filterable:1,
