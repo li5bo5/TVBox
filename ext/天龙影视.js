@@ -41,7 +41,8 @@ var rule={
         17:{cateId:'17'},
         18:{cateId:'18'},
         20:{cateId:'20'},
-        48:{cateId:'48'}
+	48:{cateId:'48'},
+	16:{cateId:'16'}
     },
     
     
