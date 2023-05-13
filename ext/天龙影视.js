@@ -57,6 +57,14 @@ var rule={
     推荐:'.inner1 li;.box2&&li&&Text;img&&src;.m&&Text;a&&href',
     double:true, // 推荐内容是否双层定位
     一级:'#movielist&&li;h3&&Text;img&&src;.info&&Text;a&&href',
-    二级:{"title":".bread&&Text;.cont&&p:eq(2)&&Text","img":"img&&src","desc":";;;.cont&&p:eq(1)&&Text;.cont&&p:eq(0)&&Text","content":".detail-intro&&p&&Text","tabs":"#pagerlist li","lists":"#zongyilist:eq(#id) li"},
-    搜索:'.channel-list&&li;h3&&Text;img&&src;.cont&&p:eq(0)&&Text;a&&href;',
+   // 二级:{"title":".bread&&Text;.cont&&p:eq(2)&&Text","img":"img&&src","desc":";;;.cont&&p:eq(1)&&Text;.cont&&p:eq(0)&&Text","content":".detail-intro&&p&&Text","tabs":"#pagerlist li","lists":"#zongyilist:eq(#id) li"},
+    二级:{
+	"title":".bread&&Text;.cont&&p:eq(2)&&Text",
+	"img":"img&&src",
+	"desc":".cont&&p:eq(0)&&Text;.cont&&p:eq(1)&&Text;.cont&&p:eq(2)&&Text;.cont&&p:eq(3)&&Text;.cont&&p:eq(4)&&Text",
+	"content":"body&&.detail&&.detail-intro,1&&p&&Text",
+	"tabs":".tab-item&&b&&Text",
+	"lists":"#zongyilist:eq(#id) li"
+	},
+	搜索:'.channel-list&&li;h3&&Text;img&&src;.cont&&p:eq(0)&&Text;a&&href;',
 }
