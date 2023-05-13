@@ -1,11 +1,6 @@
-// 搜索验证
-// 播放无画面
-muban.mxpro.二级.desc = '.module-info-item:eq(2)&&Text;;;.module-info-item-content:eq(1)&&Text;.module-info-item-content:eq(0)&&Text'
-muban.mxpro.二级.tabs = '#y-playList .module-tab-item'
 var rule = {
 	//title:'cokemv',
 	title:'天龙影视',
-	模板:'mxpro',
 	host:'http://www.85mao.com',
 	url:'/List1/fyclass.html',
 	//url:'/List/fyclass--------fypage---.html',
