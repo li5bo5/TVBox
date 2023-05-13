@@ -4,7 +4,7 @@ var rule={
     // homeUrl:'/',
     url:'/List/fyfilter.html',
     searchUrl:'/Search/-------------.html?wd=**',
-    searchable:1,//是否启用全局搜索,
+    searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     filterable:1,//是否启用分类筛选,
     
