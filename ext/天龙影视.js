@@ -4,9 +4,9 @@ var rule={
     // homeUrl:'/',
     url:'/List/fyfilter.html',
     searchUrl:'/vodsearch/-------------.html?wd=**',
-    searchable:2,//是否启用全局搜索,
-    quickSearch:0,//是否启用快速搜索,
-    filterable:0,//是否启用分类筛选,
+    searchable:1,//是否启用全局搜索,
+    quickSearch:1,//是否启用快速搜索,
+    filterable:1,//是否启用分类筛选,
     
     filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
 	
