@@ -1,4 +1,4 @@
-varrule={
+var rule={
 title:'腾讯视频',
 host:'https://v.qq.com',
 homeUrl:'/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
@@ -42,7 +42,6 @@ headers:{
 'User-Agent':'PC_UA'
 },
 timeout:5000,
-//class_parse:'.site_channela;a&&Text;a&&href;channel/(.*)',
 cate_exclude:'会员|游戏|全部',
 class_name:'精选&电视剧&电影&综艺&动漫&少儿&纪录片',
 class_url:'choice&tv&movie&variety&cartoon&child&doco',
