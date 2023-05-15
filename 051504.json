@@ -1,6 +1,6 @@
 {
 "spider":"./Jar/Fan512.jar",
-"wallpaper":"./WallPaper/1.jpg",
+"wallpaper":"./WallPaper/2.jpg",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
 "flags":["youku","优酷","优酷视频","qq","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","sohu","搜狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","bilibili","哔哩","哔哩哔哩"],
 "sites":[
@@ -8,7 +8,7 @@
 {"key":"豆瓣榜单",			"name":"豆瓣榜单",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js","searchable":0,"quickSearch":0,"filterable":1},
 {"key":"爱奇艺",			"name":"爱奇艺",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/爱奇艺.js"},	
 {"key":"优酷",				"name":"优酷",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/优酷.js"},
-{"key":"腾讯视频",			"name":"腾讯视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/腾讯视频2.js"},
+{"key":"腾讯视频",			"name":"腾讯视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/腾讯视频.js"},
 {"key":"drpy_js_百忙无果",	"name":"芒果TV",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/芒果TV.js"},
 {"key":"drpy_js_哔哩影视",	"name":"哔哩影视",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩影视.js"},//,"jar":"./Jar/FMi.jar"},
 {"key":"drpy_js_菜狗",		"name":"搜狗视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/搜狗视频.js"},
