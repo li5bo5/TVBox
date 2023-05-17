@@ -8,7 +8,6 @@
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 
 "sites":[
-{"key":"dr_我爱电影网","name":"我爱电影网(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"./ext1/我爱电影网.js"},
 {"key":"dr_我爱跟剧","name":"我爱跟剧(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/我爱跟剧.js"},
 {"key":"dr_我的哔哩","name":"我的哔哩(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/我的哔哩.js"},
 {"key":"dr_抓饭体育","name":"抓饭体育(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"./ext1/抓饭体育.js"},
