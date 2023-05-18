@@ -11,14 +11,11 @@ var rule = {
     filter_url: '{{fl.area}}',
     filter: {
         "douyu":[{"key":"area","name":"分区","value":[{"n":"英雄联盟","v":"英雄联盟"},{"n":"炉石传说","v":"炉石传说"},{"n":"LOL手游","v":"LOL手游"},{"n":"和平精英","v":"和平精英"},{"n":"绝地求生","v":"热门游戏"},{"n":"JJ斗地主","v":"JJ斗地主"},{"n":"纪录片","v":"纪录片"}]}],
-        "huya":[{"key":"area","name":"分区","value":[{"n":"炉石传说","v":"炉石传说"},{"n":"炉石战棋","v":"炉石战棋"},{"n":"英雄联盟","v":"英雄联盟"},{"n":"英雄联盟手游","v":"英雄联盟手游"},{"n":"绝地求生","v":"天天吃鸡"}]}],
-        "bilibili":[{"key":"area","name":"分区","value":[{"n":"游戏赛事","v":"游戏赛事"}]}]
+        "huya":[{"key":"area","name":"分区","value":[{"n":"炉石传说","v":"炉石传说"},{"n":"炉石战棋","v":"炉石战棋"},{"n":"英雄联盟","v":"英雄联盟"},{"n":"英雄联盟手游","v":"英雄联盟手游"},{"n":"绝地求生","v":"天天吃鸡"}]}]
+      //"bilibili":[{"key":"area","name":"分区","value":[{"n":"游戏赛事","v":"游戏赛事"}]}]
 		},
-    filter_def:{
-        douyu:{area:'炉石传说'},
-        huya:{area:'英雄联盟'},
-        bilibili:{area:'游戏赛事'}
-    },
+    filter_def:{douyu:{area:'炉石传说'},huya:{area:'英雄联盟'},bilibili:{area:'游戏赛事'}},//默认分类
+	
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
