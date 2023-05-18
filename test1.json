@@ -50,7 +50,7 @@
 {"key":"dr_Fun4K","name":"Fun4K(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/Fun4K.js"},
 {"key":"dr_HDmoli","name":"HDmoli(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/HDmoli.js"},
 {"key":"dr_JRKAN直播","name":"JRKAN直播(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./ext1/JRKAN直播.js"},
-{"key":"dr_JustLive","name":"JustLive(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./ext1/JustLive.js"},
+{"key":"dr_JustLive","name":"JustLive(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./ext/JustLive.js"},
 {"key":"dr_NT动漫","name":"NT动漫(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/NT动漫.js"},
 {"key":"dr_NY影院","name":"NY影院(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/NY影院.js"},
 {"key":"dr_ddys","name":"ddys(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"./ext1/ddys.js"},
