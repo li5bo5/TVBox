@@ -14,7 +14,7 @@ var rule = {
         "huya":[{"key":"area","name":"分区","value":[{"n":"炉石传说","v":"炉石传说"},{"n":"炉石战棋","v":"炉石战棋"},{"n":"英雄联盟","v":"英雄联盟"},{"n":"英雄联盟手游","v":"英雄联盟手游"},{"n":"绝地求生","v":"天天吃鸡"}]}]
       //"bilibili":[{"key":"area","name":"分区","value":[{"n":"游戏赛事","v":"游戏赛事"}]}]
 		},
-    filter_def:{douyu:{area:'炉石传说'},huya:{area:'英雄联盟'},bilibili:{area:'英雄联盟'}},//默认分类
+    filter_def:{douyu:{area:'炉石传说'},huya:{area:'英雄联盟'},bilibili:{area:'游戏赛事'}},//默认分类
 	
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
