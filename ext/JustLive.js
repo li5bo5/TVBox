@@ -15,10 +15,9 @@ var rule = {
         "bilibili":[{"key":"area","name":"分区","value":[{"n":"游戏赛事","v":"游戏赛事"}]}]
 		},
     filter_def:{
-        douyu:{area:'原创IP'},
-        huya:{area:'一起看'},
-        bilibili:{area:'影音馆'},
-        cc:{area:'星秀'}
+        douyu:{area:'炉石传说'},
+        huya:{area:'英雄联盟'},
+        bilibili:{area:'游戏赛事'}
     },
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
