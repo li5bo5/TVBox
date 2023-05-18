@@ -8,10 +8,12 @@
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
 
 "sites":[
-  {"key":"csp_appysv2_阿里影视","name":"阿里影视(萝卜)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://aliys.cn:90/api.php/v1.vod","jar":"./Jar/cs.jar"},
-  {"key":"t4","name":"T4","type":4,"api":"https://t4.secan.icu/vod?sites=all&ali_token=59744816075f4729bc00cd23b98e3447&timeout=8","searchable":1,"quickSearch":1,"filterable":0},
-
-  
+{"key":"csp_appysv2_阿里影视","name":"阿里影视(萝卜)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://aliys.cn:90/api.php/v1.vod","jar":"./Jar/cs.jar"},
+{"key":"t4","name":"T4","type":4,"api":"https://t4.secan.icu/vod?sites=all&ali_token=59744816075f4729bc00cd23b98e3447&timeout=8","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"艾旦影视","name":"艾旦影视(聚)","type":1,"api":"https://lovedan.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"1080资源库","name":"1080资源库(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":0},
+{"key":"忆梦","name":"忆梦(官)","type":1,"api":"http://anltv.cn/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"天堂资源","name":"天堂资源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
   
 {"key":"dr_真不卡","name":"真不卡(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/真不卡.js"},
 {"key":"dr_天空影视","name":"天空影视(drpy)","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":0,"filterable":1,"ext":"./ext1/天空影视.js"},
