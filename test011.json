@@ -9,7 +9,7 @@
 
 "sites":[
 {"key":"dr_JustLive","name":"Bilibili","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./ext/我的哔哩.js"},
-{"key":"dr_Jue","name":"Bilibili11","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./ext/我的哔哩1.js"}
+{"key":"dr_Jue","name":"Bilibili12","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./ext/我的哔哩1.js"}
 
 
 ],
