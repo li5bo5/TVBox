@@ -55,8 +55,8 @@ var rule = {
     headers:{
         "User-Agent":"PC_UA",
         "Referer": "https://www.bilibili.com",
-        // "Cookie":"$bili_cookie"
-        "Cookie":"../Cookie/Bilibili.jpg"
+        // "Cookie":"$bili_cookie"Cookie/FM_Bilibili.jpg
+        "Cookie":"../Cookie/FM_Bilibili.jpg"
     },
     timeout:5000,
     limit:8,
