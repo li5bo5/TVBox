@@ -20,7 +20,7 @@
 {"key":"哔哩哔哩",			"name":"哔哩哔哩",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩哔哩.js"},
 {"key":"网易影像",			"name":"网易影像",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易影像.js"},
 
-{"key":"JustLive",			"name":"JustLive",	"type":3,"	api":"./lib/drpy2.min.js",	"ext":"./ext/JustLive.js"},
+{"key":"JustLive",			"name":"JustLive",	"type":3, "api":"./lib/drpy2.min.js",	"ext":"./ext/JustLive.js"},
 {"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JL-All.js"},
 //{"key":"csp_XYQBiu_斗鱼",	"name":"斗鱼直播",	"type":3,	"api":"csp_XYQBiu",			"ext":"./ext/斗鱼直播.json"},
 {"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js"},
