@@ -17,15 +17,10 @@
 {"key":"芒果TV",			"name":"芒果TV",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/芒果TV.js"},
 {"key":"哔哩影视",			"name":"哔哩影视",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩影视.js"},
 {"key":"搜狗视频",			"name":"搜狗视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/搜狗视频.js"},
-
-//{"key":"哔哩哔哩",			"name":"哔哩哔哩",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩哔哩.js"},
-{"key":"哔哩哔哩",			"name":"哔哩哔哩",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"https://raw.iqiq.io/hjdhnx/dr_py/main/js/%E6%88%91%E7%9A%84%E5%93%94%E5%93%A9.js"},
+{"key":"哔哩哔哩",			"name":"哔哩哔哩",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩哔哩.js"},
 {"key":"网易影像",			"name":"网易影像",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易影像.js"},
-
 {"key":"JustLive",			"name":"JustLive",	"type":3, "api":"./lib/drpy2.min.js",	"ext":"./ext/JustLive.js"},
- 
-//{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JL-All.js"},
-{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"https://raw.iqiq.io/hjdhnx/dr_py/main/js/JustLive.js"},
+{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JL-All.js"},
 //{"key":"csp_XYQBiu_斗鱼",	"name":"斗鱼直播",	"type":3,	"api":"csp_XYQBiu",			"ext":"./ext/斗鱼直播.json"},
 {"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js"},
 {"key":"虎牙直播",			"name":"虎牙直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/虎牙直播.js"},
