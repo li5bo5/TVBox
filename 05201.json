@@ -7,7 +7,7 @@
 
 {
 "spider":"",
-"wallpaper":"./WallPaper/5.jpg",
+"wallpaper":"./WallPaper/3.jpg",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
 "flags":["youku","优酷","优酷视频","qq","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","sohu","搜狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","bilibili","哔哩","哔哩哔哩"],
 "sites":[
