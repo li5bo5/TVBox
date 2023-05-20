@@ -56,7 +56,7 @@ var rule = {
         "User-Agent":"PC_UA",
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
-        "Cookie":"../Cookie/Bilibili.jpg"
+        "Cookie":"DedeUserID=10278492;DedeUserID__ckMd5=06b7cff4485a1c60;SESSDATA=49047527%2C1700054166%2C93c6a%2A52;bili_jct=390c0f19f15b33133ae09150c6aa2d7b;"
     },
     timeout:5000,
     limit:8,
