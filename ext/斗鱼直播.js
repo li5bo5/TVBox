@@ -16,7 +16,7 @@ var rule = {
 		"znl":[{"key":"cateId","name":"类型","value":[{"n":"全部","v":"znl"},{"n":"星星点灯","v":"xxdd"},{"n":"正能量","v":"znl"}]}]
     },
     filter_def:{
-		Usual:{cateId:'How'},
+	Usual:{cateId:'How'},
         PCgame:{cateId:'LOL'},
         djry:{cateId:'AC'},
         syxx:{cateId:'syxx'},
@@ -24,7 +24,7 @@ var rule = {
         kjwh:{cateId:'smkj'},
         znl:{cateId:'znl'}
     },
-	class_name:'我的&网游竞技&手游休闲&单机热游&娱乐天地&科技文化&正能量',
+	class_name:'推荐&网游竞技&手游休闲&单机热游&娱乐天地&科技文化&正能量',
 	class_url:'Usual&PCgame&syxx&djry&yl&kjwh&znl',
     // detailUrl:'/fyid',//二级详情拼接链接(json格式用)
     detailUrl: 'http://live.yj1211.work/api/live/getRoomInfo?uid=&platform=douyu&roomId=fyid',// JustLive
