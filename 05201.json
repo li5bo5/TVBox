@@ -11,7 +11,7 @@
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
 "flags":["youku","优酷","优酷视频","qq","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","sohu","搜狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","bilibili","哔哩","哔哩哔哩"],
 "sites":[
-{"key":"接口版本",			"name":"5.15",		"type":0,	"api":""},	
+{"key":"接口版本",			"name":"0520",		"type":0,	"api":""},	
 {"key":"豆瓣榜单",			"name":"豆瓣榜单",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 {"key":"爱奇艺",			"name":"爱奇艺",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/爱奇艺.js"},	
 {"key":"优酷",				"name":"优酷",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/优酷.js"},
