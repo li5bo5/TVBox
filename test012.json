@@ -1,53 +1,53 @@
 {
-"spider":"",
+"spider":""，
 
-"wallpaper":"./wallpaper/3.jpg",
+"wallpaper":"./wallpaper/3.jpg"，
 
-"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
+"lives":[{"group":"redirect"，"channels":[{"name":"redirect"，"urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}]，
 
-"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
+"flags":["youku"，"qq"，"iqiyi"，"qiyi"，"letv"，"sohu"，"tudou"，"pptv"，"mgtv"，"wasu"，"bilibili"，"renrenmi"]，
 
 "sites":[
-{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JL-All.js"}
+{"key":"JL-All"，			"name":"直播聚合"，	"type":3，	"api":"./lib/drpy2.min.js"，	"ext":"./ext/JLAll2.js"}
 
-],
+]，
 "parses":[
-{"name":"Demo",		"type":3,"url":"Demo"},
-{"name":"Web",		"type":3,"url":"Web"},
-{"name":"Json并发",	"type":2,"url":"Parallel"},
-{"name":"Json轮询",	"type":2,"url":"Sequence"},
-{"name":"777",		"type":0,	"url":"https://jx.777jiexi.com/player/?url= "},
-{"name":"bozrc",	"type":0,	"url":"https://jx.bozrc.com:4433/player/?url= "},
-{"name":"ckllk",	"type":1,	"url":"https://vip.ckllk.com/API.php?appkey=404164cdd1472561b4c61f1845e0bff8&url= "},
-{"name":"jhj",		"type":1,	"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url= "},
-{"name":"jsp",		"type":0,	"url":"https://jx.jsonplayer.com/player/?url= "},
-{"name":"haoy",		"type":0,	"url":"https://player.haoyyds.top:1234/?url= "},
-{"name":"kkys",		"type":0,	"url":"https://www.kuaikanys.net/jiexi/jiexi-gf/?url= "},
-{"name":"m3u82",	"type":0,	"url":"https://jx.m3u8.pw/?url= "},
-{"name":"wpsseo",	"type":0,	"url":"http://api.wpsseo.cn/?v= "},
-{"name":"zlb",		"type":0,	"url":"https://jx.zhanlangbu.com/?url= "},
-{"name":"截断",		"type":0,	"url":""}
-],
+{"name":"Demo"，		"type":3，"url":"Demo"}，
+{"name":"Web"，		"type":3，"url":"Web"}，
+{"name":"Json并发"，	"type":2，"url":"Parallel"}，
+{"name":"Json轮询"，	"type":2，"url":"Sequence"}，
+{"name":"777"，		"type":0，	"url":"https://jx.777jiexi.com/player/?url= "}，
+{"name":"bozrc"，	"type":0，	"url":"https://jx.bozrc.com:4433/player/?url= "}，
+{"name":"ckllk"，	"type":1，	"url":"https://vip.ckllk.com/API.php?appkey=404164cdd1472561b4c61f1845e0bff8&url= "}，
+{"name":"jhj"，		"type":1，	"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url= "}，
+{"name":"jsp"，		"type":0，	"url":"https://jx.jsonplayer.com/player/?url= "}，
+{"name":"haoy"，		"type":0，	"url":"https://player.haoyyds.top:1234/?url= "}，
+{"name":"kkys"，		"type":0，	"url":"https://www.kuaikanys.net/jiexi/jiexi-gf/?url= "}，
+{"name":"m3u82"，	"type":0，	"url":"https://jx.m3u8.pw/?url= "}，
+{"name":"wpsseo"，	"type":0，	"url":"http://api.wpsseo.cn/?v= "}，
+{"name":"zlb"，		"type":0，	"url":"https://jx.zhanlangbu.com/?url= "}，
+{"name":"截断"，		"type":0，	"url":""}
+]，
 
 "ijk":[
-{"group":"软解码","options":[
-{"category":4,"name":"opensles","value":"0"},
-{"category":4,"name":"overlay-format","value":"842225234"},
-{"category":4,"name":"framedrop","value":"1"},
-{"category":4,"name":"soundtouch","value":"1"},
-{"category":4,"name":"start-on-prepared","value":"1"},
-{"category":1,"name":"http-detect-range-support","value":"0"},
-{"category":1,"name":"fflags","value":"fastseek"},
-{"category":2,"name":"skip_loop_filter","value":"48"},
-{"category":4,"name":"reconnect","value":"1"},
-{"category":4,"name":"enable-accurate-seek","value":"0"},
-{"category":4,"name":"mediacodec","value":"0"},
-{"category":4,"name":"mediacodec-auto-rotate","value":"0"},
-{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},
-{"category":4,"name":"mediacodec-hevc","value":"0"},
-{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
-{"group":"硬解码","options":[
-{"category":4,"name":"opensles","value":"0"},
+{"group":"软解码"，"options":[
+{"category":4，"name":"opensles"，"value":"0"}，
+{"category":4，"name":"overlay-format"，"value":"842225234"}，
+{"category":4，"name":"framedrop"，"value":"1"}，
+{"category":4，"name":"soundtouch"，"value":"1"}，
+{"category":4，"name":"start-on-prepared"，"value":"1"}，
+{"category":1，"name":"http-detect-range-support"，"value":"0"}，
+{"category":1，"name":"fflags"，"value":"fastseek"}，
+{"category":2，"name":"skip_loop_filter"，"value":"48"}，
+{"category":4，"name":"reconnect"，"value":"1"}，
+{"category":4，"name":"enable-accurate-seek"，"value":"0"}，
+{"category":4，"name":"mediacodec"，"value":"0"}，
+{"category":4，"name":"mediacodec-auto-rotate"，"value":"0"}，
+{"category":4，"name":"mediacodec-handle-resolution-change"，"value":"0"}，
+{"category":4，"name":"mediacodec-hevc"，"value":"0"}，
+{"category":1，"name":"dns_cache_timeout"，"value":"600000000"}]}，
+{"group":"硬解码"，"options":[
+{"category":4，"name":"opensles"，"value":"0"}，
 {"category":4,"name":"overlay-format","value":"842225234"},
 {"category":4,"name":"framedrop","value":"1"},
 {"category":4,"name":"soundtouch","value":"1"},
