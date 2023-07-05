@@ -23,7 +23,8 @@
 {"key":"网易影像",			"name":"网易影像",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/网易影像.js"},
 
 {"key":"JustLive",			"name":"JustLive",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JustLive.js"},
-{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JLAll.js","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "dr_JustLive",   "name": "JustLive(drpy)",   "type": 3,   "api": "https://li5bo5.repl.co/libs/drpy.min.js",   "searchable": 0,   "quickSearch": 0,   "filterable": 1,   "ext": "https://li5bo5.repl.co/js/JustLive.js"}
+//{"key":"JL-All",			"name":"直播聚合",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JLAll.js","searchable": 1,"quickSearch": 1,"filterable": 1},
 //{"key":"csp_XYQBiu_斗鱼",	"name":"斗鱼直播",	"type":3,	"api":"csp_XYQBiu",			"ext":"./ext/斗鱼直播.json"},
 {"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js"},
 {"key":"虎牙直播",			"name":"虎牙直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/虎牙直播.js"},
