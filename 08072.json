@@ -31,7 +31,7 @@
 
 {"key":"310直播",			"name":"310直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/310直播.js"},
 {"key":"JRKAN直播",			"name":"JRKAN直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JRKAN直播.js"},
-{"key":"88看球",			"name":"88看球",	"type":3,	"api":"./lib/drpy.min.js",	"ext":"./ext/88看球.js"},
+{"key":"88看球",			"name":"88看球",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/88看球.js"},
 
 {"key":"i275听书",			"name":"i275听书",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/i275听书.js"},
 {"key":"六月听书",			"name":"六月听书",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/六月听书.js"},
