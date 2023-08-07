@@ -47,12 +47,6 @@
 {"key":"APP影视〔官源〕",	"name":"收尾",		"type":0,	"api":"","searchable":0,"quickSearch":0,"filterable":0}
 ],
 "parses":[
-{"name":"Demo",		"type":3,"url":"Demo"},
-{"name":"Web",		"type":3,"url":"Web"},
-{"name":"Json并发",	"type":2,"url":"Parallel"},
-{"name":"Json轮询",	"type":2,"url":"Sequence"},
-{"name":"聚合1","type":3,"url":"Demo"},
-{"name":"聚合0","type":3,"url":"Web"},
 {"name":"1","type":1,"url":"http://json.g9.pub:66/?url= "},
 {"name":"2","type":0,"url":"https://yun.ckmov.com/?url= "},
 {"name":"3","type":0,"url":"https://jx.zhanlangbu.com/?url= "},
