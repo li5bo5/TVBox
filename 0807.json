@@ -16,7 +16,7 @@
 {"key":"爱奇艺",			"name":"爱奇艺",	"type":3,	"api":"./lib/drpy.min.js",	"ext":"./ext/爱奇艺.js"},	
 {"key":"优酷",				"name":"优酷",		"type":3,	"api":"./lib/drpy.min.js",	"ext":"./ext/优酷.js"},
 {"key":"腾讯视频",			"name":"腾讯视频",	"type":3,	"api":"./lib/drpy.min.js",	"ext":"./ext/腾讯视频.js"},
-{"key":"芒果TV",			"name":"芒果TV",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/芒果TV.js"},
+{"key":"芒果TV",			"name":"芒果TV",	"type":3,	"api":"./lib/drpy.min.js",	"ext":"./ext/芒果TV.js"},
 {"key":"哔哩影视",			"name":"哔哩影视",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩影视.js"},
 {"key":"搜狗视频",			"name":"搜狗视频",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/搜狗视频.js"},
 {"key":"哔哩哔哩",			"name":"哔哩哔哩",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/哔哩哔哩.js"},
