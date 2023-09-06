@@ -33,6 +33,8 @@
 |24|https://raw.iqiq.io/xianyuyimu/TVBOX-/main/TVBox/%E5%A4%87%E7%94%A8.json||一木|
 
 --------------------------------------------
+## 影视仓添加内置接口
+https://tianyastudio.blogspot.com/search/label/TVBOX
 ## 开源仓库
 https://github.com/
 https://gitlab.com/
