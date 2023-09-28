@@ -1,17 +1,45 @@
 {
-"storeHouse": [
+    "urls": [
+         {
+          "url":"https://ghproxy.com/https://raw.githubusercontent.com/li5bo5/TVBox/main/08072.json",
+          "name":"08072"
+        },
+       {
+          "url":"https://ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/fuli.json",
+          "name":"18+1"
+        },
+       {
+          "url":"https://agit.ai/guot54/ygbh/raw/branch/master/plus/PRO.json",
+          "name":"18+2"
+        },
+       {
+          "url":"https://guot55.github.io/gg1/qh.json",
+          "name":"18+3"
+        },
+       {
+          "url":"https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/9918.json",
+          "name":"18+4"
+        },
+       {
+          "url":"https://cdn.staticaly.com/gh/mmtekamu/tvbox/main/jiekou/18.json",
+          "name":"18+5"
+        },
+      {
+          "url":"https://yydsys.top/duo/ali",
+          "name":"阿里"
+        },
+        {
+          "url":"http://饭太硬.top/tv",
+          "name":"饭太硬"
+        },
+        {
+          "url":"http://我不是.肥猫.love:63/接口禁止贩卖",
+          "name":"肥猫"
+        },
 
-{ "sourceName": "自用①号", "sourceUrl": "https://raw.fastgit.org/yutian88881/tvbox/main/duomv/1" }, 
-{ "sourceName": "自用②号", "sourceUrl": "https://raw.fastgit.org/yutian88881/tvbox/main/duomv/2" }, 
-{ "sourceName": "备用①号", "sourceUrl": "https://raw.fastgit.org/yutian88881/tvbox/main/duomv/3" },
-{ "sourceName": "备用②号", "sourceUrl": "https://raw.fastgit.org/yutian88881/tvbox/main/duomv/4" },
-{ "sourceName": "精品①号", "sourceUrl": "https://www.xueximeng.com/tvbox/🌸超级仓库.json" }, 
-{ "sourceName": "精品①号", "sourceUrl": "https://www.xueximeng.com/tvbox/🦆精品仓库.json" }, 
-{ "sourceName": "18+1", "sourceUrl": "https://ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/fuli.json" }, 
-{ "sourceName": "18+2", "sourceUrl": "https://guot55.github.io/gg1/qh.json" }，
-{ "sourceName": "18+1", "sourceUrl": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/9918.json" }, 
-{ "sourceName": "18+1", "sourceUrl": "https://agit.ai/guot54/ygbh/raw/branch/master/plus/PRO.json" }, 
-{ "sourceName": "18+1", "sourceUrl": "https://cdn.staticaly.com/gh/mmtekamu/tvbox/main/jiekou/18.json" }
-
-]
-}
+        {
+          "url":"https://weixine.net/ysc.json",
+          "name":"运输车"
+        }
+     ]
+   }
