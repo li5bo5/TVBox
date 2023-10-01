@@ -1,41 +1,25 @@
 {
-    "urls": [
-         {
-          "url":"https://ghproxy.com/https://raw.githubusercontent.com/li5bo5/TVBox/main/1001.json",
-          "name":"1001"
-        },
-       {
-          "url":"https://ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/fuli.json",
-          "name":"18+1"
-        },
-       {
-          "url":"https://guot55.github.io/gg1/qh.json",
-          "name":"18+3"
-        },
-       {
-          "url":"https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/9918.json",
-          "name":"18+4"
-        },
-       {
-          "url":"https://cdn.staticaly.com/gh/mmtekamu/tvbox/main/jiekou/18.json",
-          "name":"18+5"
-        },
-      {
-          "url":"https://yydsys.top/duo/ali",
-          "name":"阿里"
-        },
-        {
-          "url":"http://饭太硬.top/tv",
-          "name":"饭太硬"
-        },
-        {
-          "url":"http://我不是.肥猫.love:63/接口禁止贩卖",
-          "name":"肥猫"
-        },
+"urls":[
+{"url":"https://ghproxy.com/https://raw.githubusercontent.com/li5bo5/TVBox/main/1001.json",
+"name":"1001"},
+{"url":"https://li5bo5.repl.co/config/2?ver=0",
+"name":"dr_py"},
 
-        {
-          "url":"https://weixine.net/ysc.json",
-          "name":"运输车"
-        }
-     ]
-   }
+{"url":"https://yydsys.top/duo/ali",
+"name":"阿里"},
+{"url":"http://饭太硬.top/tv",
+"name":"饭太硬"},
+{"url":"http://我不是.肥猫.love:63/接口禁止贩卖",
+"name":"肥猫"},
+{"url":"https://weixine.net/ysc.json",
+"name":"运输车"},
+{"url":"https://ghproxy.com/https://raw.githubusercontent.com/franksun1211/TVBOX/main/fuli.json",
+"name":"18+1"},
+{"url":"https://guot55.github.io/gg1/qh.json",
+"name":"18+3"},
+{"url":"https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/9918.json",
+"name":"18+4"},
+{"url":"https://cdn.staticaly.com/gh/mmtekamu/tvbox/main/jiekou/18.json",
+"name":"18+5"}
+]
+}
