@@ -40,15 +40,11 @@
 ],
 
 "parses":[
-{"name":"轮询","type":2,"url":"Sequence"},
-{"name":"并发","type":2,"url":"Parallel"},
-{"name":"聚合1","type":3,"url":"Demo"},
-{"name":"聚合0","type":3,"url":"Web"},
-{"name":"解析1","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"flag":["mgtv","芒果","芒果TV","imgo","腾讯视频","qq","腾讯","qiyi","爱奇艺","奇艺"]}},
-{"name":"解析2","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["mgtv","芒果","芒果TV","imgo","腾讯视频","qq","腾讯","qiyi","爱奇艺","奇艺"]}},
-{"name":"解析3","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"flag":["youku","优酷","qiyi","爱奇艺","奇艺"]}},
-{"name":"解析4","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["youku","优酷","腾讯视频","qq","腾讯","qiyi","爱奇艺","奇艺"]}},
-{"name":"解析5","type":0,"url":"https://www.pangujiexi.com/pangu/?url=","ext":{"flag":["youku","优酷","腾讯视频","qq","腾讯","qiyi","爱奇艺","奇艺"]}}
+{"name":"解析1","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+{"name":"解析2","type":0,"url":"https://jx.zhanlangbu.com/?url="},
+{"name":"解析3","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+{"name":"解析4","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"解析5","type":0,"url":"https://www.pangujiexi.com/pangu/?url="}
 ],
 "rules":[
 {"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333"]},
