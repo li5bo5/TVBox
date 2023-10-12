@@ -1,6 +1,6 @@
+#EXTM3U
 #https://github.com/tianya7981/tvbox-/blob/main/zbyfx20230918.m3u
 #精简无效源，调整顺序
-#EXTM3U
 #EXTINF:-1 group-title="新闻频道",TVBS新聞
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 group-title="新闻频道",TVBS新聞
