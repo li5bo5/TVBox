@@ -3,11 +3,11 @@
 "lives":[{"name":"live","type":0,"url":"https://ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "sites":[
   
-{"key":"豆瓣榜单",			"name":"10121",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
+{"key":"豆瓣榜单",			"name":"10122",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 
-{"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播测1.js"}
+{"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播测2.js"}
 
-],
+]，
 
 "parses":[
 {"name":"解析1","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
@@ -15,7 +15,7 @@
 {"name":"解析3","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 {"name":"解析4","type":0,"url":"https://jx.xmflv.com/?url="},
 {"name":"解析5","type":0,"url":"https://www.pangujiexi.com/pangu/?url="}
-],
+]，
 "rules":[
 {"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333"]},
 {"name":"暴风廣告","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
@@ -25,7 +25,7 @@
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]}
-], 
+]， 
 "ijk":[
 {"group":"软解码","options":[
 {"category":4,"name":"opensles","value":"0"},
