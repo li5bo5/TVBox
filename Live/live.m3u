@@ -1,5 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="RedBull",RedBull-1080P
+#EXTINF:-1 group-title="运动",RedBull-1080P
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 group-title="RedBull",RedBull-720P
+#EXTINF:-1 group-title="运动",RedBull-720P
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 group-title="体育",爱体育
+https://la1.hellocenter.xyz/live/1697240587.m3u8
+#EXTINF:-1 group-title="体育",纬来体育
+https://pull-f5-spe.ixigua.com/live/YesLiveTV-2ca05717-2ed4-4953-a67b-94607ef99071/index.m3u8?by=yeslivetv.com
+#EXTINF:-1 group-title="体育",爱尔达体育
+https://pull-f5-spe.ixigua.com/live/YesLiveTV-43640206-7e56-47dd-91ee-ec48c6482424/index.m3u8?by=yeslivetv.com
