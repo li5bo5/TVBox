@@ -53,6 +53,8 @@ proxy-groups:
    - iKuuu
    - Haitun
    - Free
+   proxies:
+   - DIRECT
 
 # clash-rules项目提供的规则集
 rule-providers:
