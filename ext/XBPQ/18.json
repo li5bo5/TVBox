@@ -5,7 +5,7 @@
 "sites":[
 {"key":"豆瓣榜单",			"name":"1015",		"type":3,	"api":"../lib/drpy2.min.js",	"ext":"../豆瓣榜单.js"},
 
-{"key":"18AV-OLD"，	"name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./18AV-OLD.json"},
+{"key":"18AV-OLD"，  "name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./18AV-OLD.json"},
 {"key":"X先生",			"name":"X先生",	"type":3,	"api":"csp_XBPQ",	"ext":"./X先生.json"},
 {"key":"gaoaa",			"name":"gaoaa",	"type":3,	"api":"csp_XBPQ",	"ext":"./gaoaa.json"},
 {"key":"hsck",			"name":"hsck",	"type":3,	"api":"csp_XBPQ",	"ext":"./hsck.json"},
