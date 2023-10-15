@@ -5,16 +5,11 @@ mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:60000
 
-# iKuuu  https://x7b74.no-mad-world.club/link/tDJq4ccVYq4H9Equ?clash=3&extend=1
-# Haitun https://s.haituncloud.vip/link/YTs0e8F9n1XU5x1B?clash=1
-# Free   https://zero.76898102.xyz/link/jUIBaxd7lu3vZQco?clash=1
-# Bikini https://api.biqibao.site/api/v1/client/subscribe?token=89a32cc84aad9ec140391a1c198b5094
-# EMO    https://002.8698681.xyz/api/v1/client/subscribe?token=a7661e1956005b5affcff11bd040d0d7
-# 白嫖   https://sub.xn--mesv7f5toqlp.com/api/v1/client/subscribe?token=c96972e01515de6bb74bd6207dd9dba4
+# 节点配置文件统一存放在 ./profiles/proxies/ 目录中
 
 proxy-providers:
 # 从链接导入的配置文件（支持多个Clash 订阅链接）
-  iKuuu:
+ iKuuu:
    type: http
    path: ./profiles/proxies/iKuuu.yaml
    url: https://x7b74.no-mad-world.club/link/tDJq4ccVYq4H9Equ?clash=3&extend=1
@@ -23,7 +18,7 @@ proxy-providers:
      enable: true
      url: http://www.gstatic.com/generate_204
      interval: 300
-  Haitun:
+ Haitun:
    type: http
    path: ./profiles/proxies/Haitun.yaml
    url: https://s.haituncloud.vip/link/YTs0e8F9n1XU5x1B?clash=1
@@ -32,7 +27,7 @@ proxy-providers:
      enable: true
      url: http://www.gstatic.com/generate_204
      interval: 300
-  Free:
+ Free:
    type: http
    path: ./profiles/proxies/Free.yaml
    url: https://zero.76898102.xyz/link/jUIBaxd7lu3vZQco?clash=1
@@ -51,6 +46,8 @@ proxy-groups:
    - iKuuu
    - Haitun
    - Free
+  proxies:
+   - DIRECT
 
 # clash-rules项目提供的规则集
 rule-providers:
