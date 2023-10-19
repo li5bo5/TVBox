@@ -1,17 +1,17 @@
 //1015--Vanessa-18+
 {
 "wallpaper":"./WallPaper/3.jpg",
-"spider":"./18.jar",
+"spider":"./ext/XBPQ/18.jar",
 "sites":[
-{"key":"豆瓣榜单",			"name":"1015",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
+{"key":"豆瓣榜单",		"name":"1015",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 
-{"key":"18AV-OLD",  "name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./18AV-OLD.json"},
-{"key":"X先生",			"name":"X先生",	"type":3,	"api":"csp_XBPQ",	"ext":"./X先生.json"},
-{"key":"gaoaa",			"name":"gaoaa",	"type":3,	"api":"csp_XBPQ",	"ext":"./gaoaa.json"},
-{"key":"hsck",			"name":"hsck",	"type":3,	"api":"csp_XBPQ",	"ext":"./hsck.json"},
-{"key":"大炮色",			"name":"大炮色",	"type":3,	"api":"csp_XBPQ",	"ext":"./大炮色.json"},
-{"key":"新香蕉",			"name":"新香蕉",	"type":3,	"api":"csp_XBPQ",	"ext":"./新香蕉.json"},
-{"key":"色花堂",			"name":"色花堂",	"type":3,	"api":"csp_XBPQ",	"ext":"./色花堂.json"}
+{"key":"18AV-OLD",  	"name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/18AV-OLD.json"},
+{"key":"X先生",			"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/X先生.json"},
+{"key":"gaoaa",			"name":"gaoaa",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/gaoaa.json"},
+{"key":"hsck",			"name":"hsck",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/hsck.json"},
+{"key":"大炮色",		"name":"大炮色",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/大炮色.json"},
+{"key":"新香蕉",		"name":"新香蕉",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/新香蕉.json"},
+{"key":"色花堂",		"name":"色花堂",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/色花堂.json"}
 ],
 
 "ijk":[
