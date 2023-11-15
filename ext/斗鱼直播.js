@@ -80,9 +80,10 @@ var rule = {
 			vod_content:'房间号：'+jo.roomId+" ｜ "+'状态：'+(jo.isLive == 1 ?"正在直播":"未开播"),};
 			var playurl=JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform="+jo.platForm+"&roomId="+jo.roomId)).data;
 			Object.keys(playurl).forEach(function(key){
-				if(!/ayyuid|to/.test(key)){
+				if(/OD/.test(key)){
 					d.push({
-						title:name[key],url:playurl[key]
+						title: 'JustLive',
+						url:playurl[key]
 						})}});
 			d.push(
 			{title:"斗鱼解析1",url:"http://epg.112114.xyz/douyu/"+jo.roomId},
