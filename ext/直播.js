@@ -5,15 +5,15 @@ var rule = {
     homeUrl:'/api/home/mix',
     url:'/api/room/list?page=fypage&type=fyfilter',
     filterable:0,//是否启用分类筛选,
-    //filter_url:'{{fl.cateId}}',
-    filter:{
-		"How":[{"key":"cateId","name":"类型","value":[{"n":"炉石传说","v":"How"}]}],
-		"LOL":[{"key":"cateId","name":"类型","value":[{"n":"英雄联盟","v":"LOL"}]}],
-		"LOLM":[{"key":"cateId","name":"类型","value":[{"n":"LOL手游","v":"LOLM"}]}],
-		"hpjy":[{"key":"cateId","name":"类型","value":[{"n":"和平精英","v":"hpjy"}]}],
-		"jj":[{"key":"cateId","name":"类型","value":[{"n":"JJ斗地主","v":"jj"}]}],
-		"rmyx":[{"key":"cateId","name":"类型","value":[{"n":"热门游戏","v":"rmyx"}]}]
-    },
+    filter_url:'{{fl.cateId}}',
+   // filter:{
+		//"How":[{"key":"cateId","name":"类型","value":[{"n":"炉石传说","v":"How"}]}],
+		//"LOL":[{"key":"cateId","name":"类型","value":[{"n":"英雄联盟","v":"LOL"}]}],
+		//"LOLM":[{"key":"cateId","name":"类型","value":[{"n":"LOL手游","v":"LOLM"}]}],
+		//"hpjy":[{"key":"cateId","name":"类型","value":[{"n":"和平精英","v":"hpjy"}]}],
+		//"jj":[{"key":"cateId","name":"类型","value":[{"n":"JJ斗地主","v":"jj"}]}],
+		//"rmyx":[{"key":"cateId","name":"类型","value":[{"n":"热门游戏","v":"rmyx"}]}]
+   // },
     filter_def:{
 	How:{cateId:'How'},
         LOL:{cateId:'LOL'},
