@@ -4,7 +4,7 @@ var rule = {
     host:'https://m.douyu.com',
     homeUrl:'/api/home/mix',
     url:'/api/room/list?page=fypage&type=fyfilter',
-    filterable:1,//是否启用分类筛选,
+    filterable:0,//是否启用分类筛选,
     filter_url:'{{fl.cateId}}',
     filter:{
 		"How":[{"key":"cateId","name":"类型","value":[{"n":"炉石传说","v":"How"}]}],
@@ -20,7 +20,7 @@ var rule = {
         LOLM:{cateId:'AC'},
         hpjy:{cateId:'LOLM'},
         jj:{cateId:'yqk'},
-        rmyx:{cateId:'smkj'}
+        rmyx:{cateId:'rmyx'}
     },
 	class_name:'炉石传说&英雄联盟&LOL手游&和平精英&JJ斗地主&热门游戏',
 	class_url:'How&LOL&LOLM&hpjy&jj&rmyx',
