@@ -18,7 +18,7 @@ var rule = {
     filter_def:{
 		Usual:{cateId:'How'},
         PCgame:{cateId:'LOL'},
-        djry:{cateId:'AC'},
+        djry:{cateId:'TVgame'},
         syxx:{cateId:'LOLM'},
         yl:{cateId:'yqk'},
         kjwh:{cateId:'smkj'},
