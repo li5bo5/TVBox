@@ -33,7 +33,7 @@
 {"key":"310直播",			"name":"310直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/310直播.js","style":{"type":"rect","ratio":1},"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"88看球",				"name":"88看球",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/88看球.js","style":{"type":"rect","ratio":1},"searchable":0,"quickSearch":0,"changeable":0},
 
-{"key":"csp_WoGG",			"name":"玩偶哥哥",	"type":3,	"api":"csp_WoGG",	"searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"},
+{"key":"csp_WoGG",			"name":"玩偶哥哥",	"type":3,	"api":"csp_WoGG",	"searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹",	"jar":"./Jar/fan.txt},
 {"key":"YGP",				"name":"新片速递",	"type":3,	"api":"csp_YGP",	"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"YiSo",				"name":"易搜搜索",	"type":3,	"api":"csp_YiSo",	"searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
 {"key":"PanSou",			"name":"盘搜搜索",	"type":3,	"api":"csp_PanSou",	"searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
