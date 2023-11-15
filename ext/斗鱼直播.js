@@ -75,9 +75,9 @@ var rule = {
 			vod_name:jo.roomName,
 			vod_pic:jo.roomPic,
 			type_name:jo.platForm.replace("douyu","斗鱼")+"·"+jo.categoryName,
-            vod_actor:'主播：'+jo.ownerName,
-			vod_director:'热度：'+jo.online,
-			vod_content:'房间号：'+jo.roomId+" ｜ "+'状态：'+(jo.isLive == 1 ?"正在直播":"未开播"),};
+            vod_actor:' '+jo.ownerName,
+			vod_director:' '+jo.ownerName,
+			vod_content:'房间号：'+jo.roomId+" ｜ "+'热度：'+jo.online+'状态：'+(jo.isLive == 1 ?"正在直播":"未开播"),};
 			var playurl=JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform="+jo.platForm+"&roomId="+jo.roomId)).data;
 			Object.keys(playurl).forEach(function(key){
 				if(/OD/.test(key)){
