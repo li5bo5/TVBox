@@ -17,7 +17,7 @@
 
 "sites":[
 {"key":"豆瓣榜单",			"name":"1115",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
-{"key":"直播",		  	"name":"直播",	"type":3,"filterable":0,	"api":"./lib/drpy2.min.js",	"ext":"./ext/直播.js"},
+{"key":"直播",		  	"name":"直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/直播.js"},
 {"key":"JustLive",			"name":"JustLive",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JustLive.js"},
 {"key":"斗鱼直播",			"name":"斗鱼直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/斗鱼直播.js"},
 {"key":"虎牙直播",			"name":"虎牙直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/虎牙直播.js"},
