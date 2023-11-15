@@ -17,9 +17,9 @@ var rule = {
     filter_def:{
 	How:{cateId:'How'},
         LOL:{cateId:'LOL'},
-        LOLM:{cateId:'AC'},
-        hpjy:{cateId:'LOLM'},
-        jj:{cateId:'yqk'},
+        LOLM:{cateId:'LOLM'},
+        hpjy:{cateId:'hpjy'},
+        jj:{cateId:'jj'},
         rmyx:{cateId:'rmyx'}
     },
 	class_name:'炉石传说&英雄联盟&LOL手游&和平精英&JJ斗地主&热门游戏',
