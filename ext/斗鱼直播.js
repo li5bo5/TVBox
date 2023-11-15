@@ -48,7 +48,7 @@ var rule = {
                     url: it.rid,
                     title: it.roomName,
                     img: it.roomSrc,
-                    desc: '👁' + it.hn + '　' + '🆙' + it.nickname,
+                    desc: '👥' + it.hn + '　' + '👤' + it.nickname,
                 })
             });
         });
@@ -62,7 +62,7 @@ var rule = {
                 url: it.rid,
                 title: it.roomName,
                 img: it.roomSrc,
-                desc: '👁' + it.hn + '　' + '🆙' + it.nickname,
+                desc: '👥' + it.hn + '　' + '👤' + it.nickname,
             })
         });
         setResult(d);
@@ -77,7 +77,7 @@ var rule = {
 			type_name:jo.platForm.replace("douyu","斗鱼")+"·"+jo.categoryName,
             vod_actor:'主播：'+jo.ownerName,
 			vod_director:'热度：'+jo.online,
-			vod_content:'房间号：'+jo.roomId+" ｜ "+'状态：'+(jo.isLive===1?"|状态:正在直播":"|状态:未开播"),};
+			vod_content:'房间号：'+jo.roomId+" ｜ "+'状态：'+(jo.isLive == 1 ?"正在直播":"未开播"),};
 			var playurl=JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform="+jo.platForm+"&roomId="+jo.roomId)).data;
 			Object.keys(playurl).forEach(function(key){
 				if(!/ayyuid|to/.test(key)){
