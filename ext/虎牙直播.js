@@ -31,7 +31,7 @@ var rule = {
     timeout:5000,
     limit:8,
     play_parse:true,
-    lazy:`js:
+    lazy:"js:
         let rid = input.match(/\\/ (\\d + ) / )[1];
         function getRealUrl(live_url) {
             let [i, b] = live_url.split('?');
@@ -68,8 +68,8 @@ var rule = {
                 'user-agent': 'Mozilla/5.0'
             })
         }
-    `,
-    推荐:`js:
+    ",
+    推荐:'js:
         let d = [];
         let jo = JSON.parse(request(input)).data.datas;
         jo.forEach(it => {
@@ -81,8 +81,8 @@ var rule = {
                 })
         });
         setResult(d);
-    `,
-    一级:`js:
+    ',
+    一级:'js:
         let d = [];
         let jo = JSON.parse(request(input)).data.datas;
         jo.forEach(it => {
@@ -94,7 +94,7 @@ var rule = {
                 })
         });
         setResult(d);
-    `,
+    ',
     二级:'*',
     搜索:'json:response.3.docs;game_roomName;game_screenshot;game_nick;room_id',
 }
