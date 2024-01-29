@@ -4,7 +4,7 @@ var rule = {
     host:'https://m.douyu.com',
     homeUrl:'/api/home/mix',
     url:'/api/room/list?page=fypage&type=fyfilter',
-    filterable:0,//是否启用分类筛选,
+    filterable:1,//是否启用分类筛选,
 	class_name:'炉石传说&英雄联盟&LOL手游&和平精英&JJ斗地主&热门游戏',
 	class_url:'How&LOL&LOLM&hpjy&jj&rmyx',
     // detailUrl:'/fyid',//二级详情拼接链接(json格式用)
