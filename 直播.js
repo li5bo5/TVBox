@@ -3,11 +3,29 @@ var rule = {
     title:'斗鱼直播',
     host:'https://m.douyu.com',
     homeUrl:'/api/home/mix',
-    url:'/api/room/list?page=fypage&type=class_url',
+    url:'/api/room/list?page=fypage&type=fyclass',
     filterable:0,//是否启用分类筛选,
 	class_name:'炉石传说&英雄联盟&热门游戏&JJ斗地主&LOL手游&和平精英',
 	class_url:'How&LOL&rmyx&jj&LOLM&hpjy',
 	
+	//filterable:0,//是否启用分类筛选,
+    //filter_url:'{{fl.cateId}}',
+    //filter:{
+		//"How":[{"key":"cateId","name":"类型","value":[{"n":"炉石传说","v":"How"}]}],
+		//"LOL":[{"key":"cateId","name":"类型","value":[{"n":"英雄联盟","v":"LOL"}]}],
+		//"LOLM":[{"key":"cateId","name":"类型","value":[{"n":"LOL手游","v":"LOLM"}]}],
+		//"hpjy":[{"key":"cateId","name":"类型","value":[{"n":"和平精英","v":"hpjy"}]}],
+		//"jj":[{"key":"cateId","name":"类型","value":[{"n":"JJ斗地主","v":"jj"}]}],
+		//"rmyx":[{"key":"cateId","name":"类型","value":[{"n":"热门游戏","v":"rmyx"}]}]
+    //},
+    //filter_def:{
+		//How:{cateId:'How'},
+      //  LOL:{cateId:'LOL'},
+       // LOLM:{cateId:'LOLM'},
+       // hpjy:{cateId:'hpjy'},
+       // jj:{cateId:'jj'},
+       // rmyx:{cateId:'rmyx'}
+  //  },
 	
     // detailUrl:'/fyid',//二级详情拼接链接(json格式用)
     detailUrl: 'http://live.yj1211.work/api/live/getRoomInfo?uid=&platform=douyu&roomId=fyid',// JustLive
