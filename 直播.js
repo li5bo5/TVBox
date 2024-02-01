@@ -2,8 +2,8 @@
 var rule = {
     title:'斗鱼直播',
     host:'https://m.douyu.com',
-    homeUrl:'/api/home/mix',
-    url:'/api/room/list?page=fypage&type=fyclass',
+    homeUrl:'?dyshid=0-51c6feabf94b8738ceaf7af5000717p1',
+    url:'/fyclass',
     filterable:0,//是否启用分类筛选,
 	class_name:'炉石传说&英雄联盟&热门游戏&JJ斗地主&LOL手游&和平精英',
 	class_url:'How&LOL&rmyx&jj&LOLM&hpjy',
