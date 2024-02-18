@@ -5,7 +5,7 @@
   
 {"key":"豆瓣榜单",			"name":"0218",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 
-{"key":"直播",			"name":"直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./JLAll.js"}
+{"key":"直播",			"name":"直播",	"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/JLAll.js"}
 
 ],
 
