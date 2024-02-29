@@ -5,8 +5,18 @@ var rule = {
     homeUrl:'/api/home/mix',
     url:'/api/room/list?page=fypage&type=fyfilter',
     filterable:1,//是否启用分类筛选,
-	class_name:'炉石传说&英雄联盟&热门游戏&JJ斗地主&LOL手游&和平精英',
-	class_url:'How&LOL&rmyx&jj&LOLM&hpjy',
+	filter_url:'{{fl.cateId}}',
+	filter:{},
+	filter_def:{
+		How:{cateId:'How'},
+		LOL:{cateId:'LOL'},
+		rmyx:{cateId:'rmyx'},
+		hpjy:{cateId:'hpjy'},
+		LOLM:{cateId:'LOLM'},
+		jj:{cateId:'jj'}
+    },
+	class_name:'炉石传说&英雄联盟&热门游戏&和平精英&LOL手游&JJ斗地主',
+	class_url:'How&LOL&rmyx&hpjy&LOLM&jj',
     // detailUrl:'/fyid',//二级详情拼接链接(json格式用)
     detailUrl: 'http://live.yj1211.work/api/live/getRoomInfo?uid=&platform=douyu&roomId=fyid',// JustLive
     searchUrl:'/api/search/liveRoom?#did=10000000000000000000000000001501&limit=20&offset=0&sk=**;post',
