@@ -9,11 +9,11 @@ var rule = {
 	filter:{},
 	filter_def:{
 		How:{cateId:'How'},
-        LOL:{cateId:'LOL'},
-        rmyx:{cateId:'rmyx'},
+		LOL:{cateId:'LOL'},
+		rmyx:{cateId:'rmyx'},
 		hpjy:{cateId:'hpjy'},
-        LOLM:{cateId:'LOLM'},
-        jj:{cateId:'jj'}
+		LOLM:{cateId:'LOLM'},
+		jj:{cateId:'jj'}
     },
 	class_name:'炉石传说&英雄联盟&热门游戏&和平精英&LOL手游&JJ斗地主',
 	class_url:'How&LOL&rmyx&hpjy&LOLM&jj',
