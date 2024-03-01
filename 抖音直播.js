@@ -43,7 +43,49 @@ var rule = {
     play_parse:true,
     lazy:'',
     推荐:'',
-    一级:'',
-    二级:'',
+    一级:`js:
+        let d = [];
+        let jo = JSON.parse(request(input)).data.list;
+        jo.forEach(it => {
+            d.push({
+                url: it.rid,
+                title: it.roomName,
+                img: it.roomSrc,
+                desc: '👥' + it.hn + '　' + '👤' + it.nickname,
+            })
+        });
+        setResult(d);
+		`,
+    二级:`js:
+		var d = [];
+		var jo = JSON.parse(request(input)).data;
+		VOD = {
+			vod_id: jo.roomId,
+			vod_name: jo.roomName,
+			vod_pic: jo.roomPic,
+			type_name: jo.platForm.replace("douyu","斗鱼") + "·" + jo.categoryName,
+            vod_director: jo.ownerName,
+			vod_actor: jo.ownerName,
+			vod_content:'房间号：' + jo.roomId + " ｜ " + '热度：' + jo.online + " ｜ " + '状态：' + (jo.isLive == 1 ? "正在直播":"未开播"),
+			};
+			var playurl = JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform=" + jo.platForm + "&roomId=" + jo.roomId)).data;
+			Object.keys(playurl).forEach(function(key){
+				if(/OD/.test(key)){
+					d.push({
+						title: 'JustLive',
+						url:playurl[key]
+						})}});
+			d.push(
+					{title: "斗鱼解析1",url: "http://epg.112114.xyz/douyu/" + jo.roomId }, 
+					{title: "斗鱼解析2",url: "https://www.aois.eu.org/live/douyu/" + jo.roomId }, 
+					{title: "斗鱼解析3",url: "https://www.goodiptv.club/douyu/" + jo.roomId}, 
+					{title: "斗鱼解析4",url: "http://maomao.kandiantv.cn/douyu1.php?id=" + jo.roomId}
+				  );
+			VOD.vod_play_from = "播放源";
+			VOD.vod_play_url = d.map(function(it) {
+            return it.title + "$" + it.url
+			}).join("#");
+			setResult(d);
+			`,
     搜索:'',
 }
