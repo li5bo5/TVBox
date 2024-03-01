@@ -151,7 +151,7 @@ var rule = {
                 );
                 VOD["vod_play_from"] = "播放源";
                 VOD["vod_play_url"] = d.map(function(it) {
-                    return it.title + "$" + it.urla
+                    return it.title + "$" + it.url
                 }).join("#");
                 setResult(d);
             }
