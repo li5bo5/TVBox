@@ -124,7 +124,7 @@ var rule = {
                         url: "https://m.huya.com/" + jo.roomId
                     },
                     {
-                        title: "虎牙解析",
+                        title: "长风",
                         url: "http://cfss.cc/cdn/hy/" + jo.roomId + ".flv"
                     },
                     {
