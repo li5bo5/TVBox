@@ -78,10 +78,9 @@ var rule = {
 						url:playurl[key]
 						})}});
 			d.push(
-					{title: "斗鱼解析1",url: "http://epg.112114.xyz/douyu/" + jo.roomId }, 
+					{title: "斗鱼解析1",url: "http://43.138.170.29:35455/douyu/" + jo.roomId },
 					{title: "斗鱼解析2",url: "https://www.aois.eu.org/live/douyu/" + jo.roomId }, 
-					{title: "斗鱼解析3",url: "https://www.goodiptv.club/douyu/" + jo.roomId}, 
-					{title: "斗鱼解析4",url: "http://maomao.kandiantv.cn/douyu1.php?id=" + jo.roomId}
+					{title: "斗鱼解析3",url: "https://www.goodiptv.club/douyu/" + jo.roomId}
 				  );
 			VOD.vod_play_from = "播放源";
 			VOD.vod_play_url = d.map(function(it) {
