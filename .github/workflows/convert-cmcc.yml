@@ -1,9 +1,9 @@
-# Convert CMCC playlist to M3U and commit channels.m3u back to repo
+# Convert CMCC playlist to M3U and commit channels.m3u back to repo using a PAT (Convert_TOKEN)
 name: Convert CMCC to M3U
 
-# 如果你想使用 GITHUB_TOKEN 替代 Convert_TOKEN，改为：
-# permissions:
-#   contents: write
+# 给 GITHUB_TOKEN 写权限作为兜底（我们主要用 Convert_TOKEN）
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
@@ -27,13 +27,22 @@ jobs:
       - name: Checkout repository using Convert_TOKEN
         uses: actions/checkout@v4
         with:
-          # 使用你创建的 secret（Convert_TOKEN）作为凭据以便后续能 push
+          # 请确认你已在仓库 Secrets 中添加名为 Convert_TOKEN 的 secret（内容为你的 PAT）
           token: ${{ secrets.Convert_TOKEN }}
           persist-credentials: true
+          fetch-depth: 0
+
+      - name: Debug: show git remote (for debugging permission issues)
+        run: |
+          git remote -v
+          echo "Current user:"
+          git config user.name || true
+          git rev-parse --abbrev-ref HEAD || true
 
       - name: Download CMCC playlist
         run: |
           curl -fsSL -o cmcc.raw https://gitee.com/gan2win/IPTV/raw/master/AH_CMCC
+          echo "Downloaded cmcc.raw length: $(wc -c < cmcc.raw || echo 0)"
 
       - name: Convert CMCC to M3U
         env:
@@ -41,19 +50,38 @@ jobs:
           LOGO_BASE_URL: ${{ github.event.inputs.logo_base_url || 'https://example.com/logos/' }}
         run: |
           python3 - <<'PY'
-          import re, os, pathlib
-          src = pathlib.Path('cmcc.raw').read_text(encoding='utf-8', errors='ignore')
+          import re, os, pathlib, html
+          src_path = pathlib.Path('cmcc.raw')
+          if not src_path.exists():
+              print('cmcc.raw not found')
+              raise SystemExit(1)
+          src = src_path.read_text(encoding='utf-8', errors='ignore')
           lines = [l.strip() for l in src.splitlines() if l.strip()]
           items = []
           for line in lines:
+              # skip comments
               if line.startswith('#'):
                   continue
-              parts = re.split(r'[|\t,\\s]+', line)
+              # common separators: |, tab, comma, space
+              parts = re.split(r'[|\t, ]+', line)
+              # if line looks like just a URL, skip
+              if len(parts) == 1 and re.match(r'^https?://', parts[0]):
+                  # could try to fetch title later; skip for now
+                  continue
               if len(parts) >= 2:
                   name = parts[0].strip()
                   url = parts[1].strip()
                   logo = parts[2].strip() if len(parts) > 2 else ''
+                  # sanitize name for m3u (escape comma)
+                  name = name.replace(',', '，')
                   items.append((name, url, logo))
+              else:
+                  # fallback: try to find url in line
+                  m = re.search(r'(https?://\S+)', line)
+                  if m:
+                      url = m.group(1)
+                      name = line.replace(url, '').strip() or url
+                      items.append((name, url, ''))
           epg = os.environ.get('EPG_URL', '').strip()
           logo_base = os.environ.get('LOGO_BASE_URL', '').strip()
           header = '#EXTM3U'
@@ -64,29 +92,32 @@ jobs:
           out = [header]
           for name, url, logo in items:
               attrs = []
-              attrs.append(f'tvg-name="{name}"')
+              attrs.append(f'tvg-name="{html.escape(name)}"')
               if logo:
                   if re.match(r'^https?://', logo):
                       attrs.append(f'tvg-logo="{logo}"')
                   elif logo_base:
-                      attrs.append(f'tvg-logo="{logo_base.rstrip('/')}/{logo.lstrip('/')}"')
+                      attrs.append(f'tvg-logo="{logo_base.rstrip("/")}/{logo.lstrip("/")}"')
               out.append(f'#EXTINF:-1 {" ".join(attrs)},{name}')
               out.append(url)
-          pathlib.Path('channels.m3u').write_text("\n".join(out), encoding='utf-8')
-          print(f"Wrote channels.m3u with {len(items)} items")
+          out_path = pathlib.Path('channels.m3u')
+          out_path.write_text("\n".join(out) + "\n", encoding='utf-8')
+          print(f"Wrote {out_path} with {len(items)} items")
           PY
 
-      - name: Commit channels.m3u back to repo
+      - name: Commit channels.m3u back to repo (push to main)
         env:
-          # 这里不用再显式传 token；checkout 已经用 Convert_TOKEN 设置好 origin 的凭据
-          # 如果你改回使用 GITHUB_TOKEN，请改为 env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 不需要在这里再次传 token，checkout with token + persist-credentials 已设置凭据
         run: |
+          git status --porcelain
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add channels.m3u
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: update channels.m3u (converted from CMCC)"
-            git push origin HEAD:main
+            exit 0
           fi
+          git commit -m "chore: update channels.m3u (converted from CMCC)"
+          # 推送到 main；若受分支保护拒绝，会在日志显示 403/remote denied
+          echo "Pushing to origin main..."
+          git push origin HEAD:main
