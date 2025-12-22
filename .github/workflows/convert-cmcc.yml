@@ -1,7 +1,5 @@
-# Convert CMCC playlist to M3U and commit channels.m3u back to repo using a PAT (Convert_TOKEN)
 name: Convert CMCC to M3U
 
-# 给 GITHUB_TOKEN 写权限作为兜底（我们主要用 Convert_TOKEN）
 permissions:
   contents: write
 
@@ -27,7 +25,6 @@ jobs:
       - name: Checkout repository using Convert_TOKEN
         uses: actions/checkout@v4
         with:
-          # 请确认你已在仓库 Secrets 中添加名为 Convert_TOKEN 的 secret（内容为你的 PAT）
           token: ${{ secrets.Convert_TOKEN }}
           persist-credentials: true
           fetch-depth: 0
@@ -59,24 +56,18 @@ jobs:
           lines = [l.strip() for l in src.splitlines() if l.strip()]
           items = []
           for line in lines:
-              # skip comments
               if line.startswith('#'):
                   continue
-              # common separators: |, tab, comma, space
               parts = re.split(r'[|\t, ]+', line)
-              # if line looks like just a URL, skip
               if len(parts) == 1 and re.match(r'^https?://', parts[0]):
-                  # could try to fetch title later; skip for now
                   continue
               if len(parts) >= 2:
                   name = parts[0].strip()
                   url = parts[1].strip()
                   logo = parts[2].strip() if len(parts) > 2 else ''
-                  # sanitize name for m3u (escape comma)
                   name = name.replace(',', '，')
                   items.append((name, url, logo))
               else:
-                  # fallback: try to find url in line
                   m = re.search(r'(https?://\S+)', line)
                   if m:
                       url = m.group(1)
@@ -106,8 +97,6 @@ jobs:
           PY
 
       - name: Commit channels.m3u back to repo (push to main)
-        env:
-          # 不需要在这里再次传 token，checkout with token + persist-credentials 已设置凭据
         run: |
           git status --porcelain
           git config user.name "github-actions[bot]"
@@ -118,6 +107,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update channels.m3u (converted from CMCC)"
-          # 推送到 main；若受分支保护拒绝，会在日志显示 403/remote denied
           echo "Pushing to origin main..."
           git push origin HEAD:main
