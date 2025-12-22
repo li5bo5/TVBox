@@ -1,15 +1,19 @@
 # Convert CMCC playlist to M3U and commit channels.m3u back to repo
 name: Convert CMCC to M3U
 
+# 如果你想使用 GITHUB_TOKEN 替代 Convert_TOKEN，改为：
+# permissions:
+#   contents: write
+
 on:
   workflow_dispatch:
     inputs:
       epg_url:
-        description: 'EPG XML (或 URL)，会作为 x-tvg-url 写入 M3U 头部'
+        description: 'EPG XML/URL to include in M3U header'
         required: false
         default: 'https://example.com/epg.xml.gz'
       logo_base_url:
-        description: '台标基地址（若 playlist 中只给出相对路径，会加上此基地址），可留空'
+        description: 'Base URL for channel logos (will be prepended if logo path present)'
         required: false
         default: 'https://example.com/logos/'
   push:
@@ -20,8 +24,12 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repository using Convert_TOKEN
         uses: actions/checkout@v4
+        with:
+          # 使用你创建的 secret（Convert_TOKEN）作为凭据以便后续能 push
+          token: ${{ secrets.Convert_TOKEN }}
+          persist-credentials: true
 
       - name: Download CMCC playlist
         run: |
@@ -38,30 +46,22 @@ jobs:
           lines = [l.strip() for l in src.splitlines() if l.strip()]
           items = []
           for line in lines:
-              if line.startswith('#'): 
+              if line.startswith('#'):
                   continue
-              # 常见分隔符：| 或 空白 或 逗号或制表符
               parts = re.split(r'[|\t,\\s]+', line)
-              # 期望至少 name 和 url
               if len(parts) >= 2:
                   name = parts[0].strip()
                   url = parts[1].strip()
                   logo = parts[2].strip() if len(parts) > 2 else ''
                   items.append((name, url, logo))
-              else:
-                  # 无法解析的行跳过
-                  continue
-
           epg = os.environ.get('EPG_URL', '').strip()
           logo_base = os.environ.get('LOGO_BASE_URL', '').strip()
-
           header = '#EXTM3U'
           if epg:
               header += f' x-tvg-url="{epg}"'
           if logo_base:
               header += f' tvg-logo="{logo_base}"'
           out = [header]
-
           for name, url, logo in items:
               attrs = []
               attrs.append(f'tvg-name="{name}"')
@@ -72,14 +72,14 @@ jobs:
                       attrs.append(f'tvg-logo="{logo_base.rstrip('/')}/{logo.lstrip('/')}"')
               out.append(f'#EXTINF:-1 {" ".join(attrs)},{name}')
               out.append(url)
-
           pathlib.Path('channels.m3u').write_text("\n".join(out), encoding='utf-8')
           print(f"Wrote channels.m3u with {len(items)} items")
           PY
 
       - name: Commit channels.m3u back to repo
         env:
-          GITHUB_TOKEN: ${{ secrets.Convert_TOKEN }}
+          # 这里不用再显式传 token；checkout 已经用 Convert_TOKEN 设置好 origin 的凭据
+          # 如果你改回使用 GITHUB_TOKEN，请改为 env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -88,5 +88,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update channels.m3u (converted from CMCC)"
-            git push
+            git push origin HEAD:main
           fi
