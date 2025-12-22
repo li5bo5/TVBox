@@ -29,7 +29,7 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      - name: Debug: show git remote (for debugging permission issues)
+      - name: Debug show git remote
         run: |
           git remote -v
           echo "Current user:"
