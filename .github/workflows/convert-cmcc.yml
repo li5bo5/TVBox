@@ -1,0 +1,92 @@
+# Convert CMCC playlist to M3U and commit channels.m3u back to repo
+name: Convert CMCC to M3U
+
+on:
+  workflow_dispatch:
+    inputs:
+      epg_url:
+        description: 'EPG XML (或 URL)，会作为 x-tvg-url 写入 M3U 头部'
+        required: false
+        default: 'https://example.com/epg.xml.gz'
+      logo_base_url:
+        description: '台标基地址（若 playlist 中只给出相对路径，会加上此基地址），可留空'
+        required: false
+        default: 'https://example.com/logos/'
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download CMCC playlist
+        run: |
+          curl -fsSL -o cmcc.raw https://gitee.com/gan2win/IPTV/raw/master/AH_CMCC
+
+      - name: Convert CMCC to M3U
+        env:
+          EPG_URL: ${{ github.event.inputs.epg_url || 'https://example.com/epg.xml.gz' }}
+          LOGO_BASE_URL: ${{ github.event.inputs.logo_base_url || 'https://example.com/logos/' }}
+        run: |
+          python3 - <<'PY'
+          import re, os, pathlib
+          src = pathlib.Path('cmcc.raw').read_text(encoding='utf-8', errors='ignore')
+          lines = [l.strip() for l in src.splitlines() if l.strip()]
+          items = []
+          for line in lines:
+              if line.startswith('#'): 
+                  continue
+              # 常见分隔符：| 或 空白 或 逗号或制表符
+              parts = re.split(r'[|\t,\\s]+', line)
+              # 期望至少 name 和 url
+              if len(parts) >= 2:
+                  name = parts[0].strip()
+                  url = parts[1].strip()
+                  logo = parts[2].strip() if len(parts) > 2 else ''
+                  items.append((name, url, logo))
+              else:
+                  # 无法解析的行跳过
+                  continue
+
+          epg = os.environ.get('EPG_URL', '').strip()
+          logo_base = os.environ.get('LOGO_BASE_URL', '').strip()
+
+          header = '#EXTM3U'
+          if epg:
+              header += f' x-tvg-url="{epg}"'
+          if logo_base:
+              header += f' tvg-logo="{logo_base}"'
+          out = [header]
+
+          for name, url, logo in items:
+              attrs = []
+              attrs.append(f'tvg-name="{name}"')
+              if logo:
+                  if re.match(r'^https?://', logo):
+                      attrs.append(f'tvg-logo="{logo}"')
+                  elif logo_base:
+                      attrs.append(f'tvg-logo="{logo_base.rstrip('/')}/{logo.lstrip('/')}"')
+              out.append(f'#EXTINF:-1 {" ".join(attrs)},{name}')
+              out.append(url)
+
+          pathlib.Path('channels.m3u').write_text("\n".join(out), encoding='utf-8')
+          print(f"Wrote channels.m3u with {len(items)} items")
+          PY
+
+      - name: Commit channels.m3u back to repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channels.m3u
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update channels.m3u (converted from CMCC)"
+            git push
+          fi
