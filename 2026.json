@@ -7,7 +7,7 @@
 "sites":[
 {"key":"豆瓣榜单",	"name":"2026",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 {"key":"直播",		"name":"直播",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/直播.js"},
-{"key":"斗鱼js",		"name":"斗鱼直播",	"type":3,	"api":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},
+{"key":"斗鱼js",		"name":"斗鱼直播",	"type":3,	"api":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755}},
 {"key":"alllive",	"name":"AL直播",		"type":3,	"api":"csp_AllliveGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":"uqGL1fpJNAUH7axYx5bf4OWuvyk="},
 {"key":"dr_兔小贝",	"name":"儿童启蒙",	"type":3,	"api":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0},
