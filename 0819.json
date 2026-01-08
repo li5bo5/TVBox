@@ -2,8 +2,6 @@
 {
 "spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/7c9e2d7dbfe58970/f0818.jpg;md5;679a73a07d611b302a608ce9e86b4f9b",
 "wallpaper":"./WallPaper/wall.jpg"
-],
-
 "sites":[
 {"key":"豆瓣榜单",			"name":"0426",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
 {"key":"直播",		  		"name":"直播",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/直播.js"},
@@ -23,3 +21,4 @@
 {"key":"玩偶哥哥",			"name":"玩偶哥哥",	"type":3,	"api":"csp_WoGG",	"searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"}
 ]
 }
+
