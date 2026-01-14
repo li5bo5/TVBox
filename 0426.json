@@ -17,7 +17,7 @@
 
 
 {
-"spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713780171700/fan.txt;md5;4af14dca6964a737a88b982cb8b20055",
+"spider":"https://oss4liview.moji.com/thd_file/2026/01/06/f506bb9442050f5d47a99d268fbfcaca.jpg;md5;6eabe6598103cd60323290c47a0c8b61",
 "wallpaper":"./WallPaper/3.jpg",
 "lives":[
 {"name":"IPV6","type":0,"url":"https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -172,3 +172,4 @@
 "z12.cnzz.com"
 ]
 }
+
