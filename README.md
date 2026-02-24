@@ -6,3 +6,6 @@
 |  2  |http://肥猫.com/  |  肥猫  |
 | 3  |  http://www.饭太硬.com/tv  | 饭太硬  |
 |   4 |  https://raw.liucn.cc/box/m.json  |   https://github.com/liu673cn/box    |
+
+# 20260224 增加1password鉴权信息存储
+功能待完善
