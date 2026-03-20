@@ -8,10 +8,10 @@
 |   4 |  https://raw.liucn.cc/box/m.json  |   https://github.com/liu673cn/box    |
 
 
-### 💖 特别鸣谢 / Special Thanks
+# 💖 特别鸣谢 / Special Thanks
 
 本项目开发过程中的团队密码与敏感凭证管理由 [1Password](https://1password.com/) 强力驱动并赞助。感谢 1Password 对开源社区的支持！
 
 <a href="https://1password.com/">
-  <img src="https://cache.agilebits.com/badges/custom_1pw_16_dark.png" alt="1Password" width="200">
+  <img src="https://images.ctfassets.net/2h488pz7kgfv/4azyTKhdySq45LBD1bRiKO/7cc93f0eae3c9f64ba1b781c2a872be5/1password-logo-dark.svg" alt="1Password" width="200">
 </a>
