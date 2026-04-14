@@ -1,0 +1,13 @@
+FROM python:3.9-slim
+WORKDIR /app
+
+# 设置时区为北京时间
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 复制脚本并安装依赖
+COPY znds_bot.py .
+RUN pip install --no-cache-dir requests
+
+# 启动脚本 (-u 参数确保日志实时刷新)
+CMD ["python", "-u", "znds_bot.py"]
