@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "project": "TVBox",
+  "sponsor": "1Password for Open Source",
+  "vault_configuration": {
+    "vault_name": "TVBox-OpenSource-Core",
+    "description": "集中管理 TVBox 开源项目的测试接口、打包签名密钥与持续集成 Token",
+    "access_control": {
+      "require_mfa": true,
+      "cli_integration": true,
+      "service_accounts_enabled": true
+    },
+    "items_schema": [
+      {
+        "category": "API_CREDENTIAL",
+        "title": "Test-Environment-Source-API",
+        "reference_uri": "op://TVBox-OpenSource-Core/Test-API/credential",
+        "rotation_period_days": 90
+      },
+      {
+        "category": "BUILD_SIGNATURE",
+        "title": "Android-Release-Keystore",
+        "reference_uri": "op://TVBox-OpenSource-Core/Release-Certs/keystore_password",
+        "rotation_period_days": 365
+      },
+      {
+        "category": "CI_CD_TOKEN",
+        "title": "GitHub-Actions-Publish-Token",
+        "reference_uri": "op://TVBox-OpenSource-Core/CI-CD/github_token",
+        "rotation_period_days": 180
+      }
+    ]
+  }
+}
